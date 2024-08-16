@@ -329,6 +329,20 @@
                 "D": "Nurple"
             },
             "answer": "B"
+        },
+        {
+            "category": "Chuck Norris",
+            "question": "When Chuck Norris first broke wind, what was the result?",
+            "options": {
+                "A": "A bad smell",
+                "B": "Plant life was revived",
+                "C": "The creation of the universe",
+                "D": "A piece of paper"
+            },
+            "answer": "C"
+        },
+        {
+            
         }
     ]
 }
