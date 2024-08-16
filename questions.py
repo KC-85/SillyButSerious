@@ -438,7 +438,7 @@ QUESTIONS = [
         'category': 'Chuck Norris Facts',
         'question': 'According to Chuck Norris facts, what happens when Chuck Norris enters a room?',
         'options': {
-            'A': 'He doesn\'t enter, the room accommodates him',
+            'A': 'He does not enter, the room accommodates him',
             'B': 'Time slows down',
             'C': 'Gravity increases',
             'D': 'The room becomes fireproof'
