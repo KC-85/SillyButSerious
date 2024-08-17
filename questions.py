@@ -1747,8 +1747,6 @@ QUESTIONS = [
         },
         'correct_answer': 'B'
     },
-
-    # Programming Languages
     {
         'category': 'Programming Languages',
         'question': (
@@ -2379,8 +2377,6 @@ QUESTIONS = [
         },
         'correct_answer': 'B'
     },
-
-    # Astronomy
     {
         'category': 'Astronomy',
         'question': (
@@ -2452,6 +2448,133 @@ QUESTIONS = [
         'correct_answer': 'A'
     }, 
     {
-        
+        'category': 'Adult Humor',
+        'question': (
+            'Why don’t skeletons fight each other?'
+        ),
+        'options': {
+            'A': 'They are afraid of breaking a bone.',
+            'B': 'They don’t have the guts.',
+            'C': 'They can’t find any weapons.',
+            'D': 'They’re already dead.'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why did the coffee file a police report?'
+        ),
+        'options': {
+            'A': 'It was mugged.',
+            'B': 'It was spilled.',
+            'C': 'It was cold.',
+            'D': 'It was brewed.'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why don’t some couples go to the gym?'
+        ),
+        'options': {
+            'A': 'They’re too tired.',
+            'B': 'They have kids.',
+            'C': 'They’re not fit.',
+            'D': 'Because some relationships don’t work out.'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why did the scarecrow win an award?'
+        ),
+        'options': {
+            'A': 'For being outstanding in his field.',
+            'B': 'For keeping the crows away.',
+            'C': 'For being the best dressed.',
+            'D': 'For being the life of the farm.'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What’s brown and sticky?'
+        ),
+        'options': {
+            'A': 'Chocolate syrup.',
+            'B': 'A stick.',
+            'C': 'Mud.',
+            'D': 'A toffee.'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why don’t oysters share their pearls?'
+        ),
+        'options': {
+            'A': 'They’re greedy.',
+            'B': 'They’re too shellfish.',
+            'C': 'They’re too expensive.',
+            'D': 'They’re not for sale.'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why did the golfer bring two pairs of pants?'
+        ),
+        'options': {
+            'A': 'In case he got a hole in one.',
+            'B': 'In case it rained.',
+            'C': 'For fashion.',
+            'D': 'To change in between rounds.'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why don’t scientists trust atoms?'
+        ),
+        'options': {
+            'A': 'They’re too small.',
+            'B': 'They make up everything.',
+            'C': 'They can split.',
+            'D': 'They’re unpredictable.'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why was the math book sad?'
+        ),
+        'options': {
+            'A': 'It had too many problems.',
+            'B': 'It was left alone.',
+            'C': 'It was torn.',
+            'D': 'It was outdated.'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Why can’t you trust an artist?'
+        ),
+        'options': {
+            'A': 'They’re sketchy.',
+            'B': 'They’re too creative.',
+            'C': 'They’re always late.',
+            'D': 'They’re unpredictable.'
+        },
+        'correct_answer': 'A' 
     }
 ]
