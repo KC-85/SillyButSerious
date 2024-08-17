@@ -1609,5 +1609,561 @@ QUESTIONS = [
             'D': 'Saturn'
         },
         'correct_answer': 'B'
+    },
+    {
+         'category': 'General Knowledge',
+        'question': (
+            'Which physicist developed the theory of general relativity?'
+        ),
+        'options': {
+            'A': 'Isaac Newton',
+            'B': 'Galileo Galilei',
+            'C': 'Albert Einstein',
+            'D': 'Niels Bohr'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'In what year did the Berlin Wall fall, leading to the '
+            'reunification of Germany?'
+        ),
+        'options': {
+            'A': '1987',
+            'B': '1988',
+            'C': '1989',
+            'D': '1990'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which mathematician is known for formulating the "Last Theorem"?'
+        ),
+        'options': {
+            'A': 'Carl Gauss',
+            'B': 'Leonhard Euler',
+            'C': 'Pierre-Simon Laplace',
+            'D': 'Pierre de Fermat'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What is the capital city of Australia, often confused with '
+            'Sydney?'
+        ),
+        'options': {
+            'A': 'Canberra',
+            'B': 'Melbourne',
+            'C': 'Brisbane',
+            'D': 'Perth'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which ancient Greek philosopher tutored Alexander the Great?'
+        ),
+        'options': {
+            'A': 'Socrates',
+            'B': 'Plato',
+            'C': 'Aristotle',
+            'D': 'Epicurus'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What is the SI unit of electric charge, named after a French '
+            'physicist?'
+        ),
+        'options': {
+            'A': 'Farad',
+            'B': 'Ohm',
+            'C': 'Coulomb',
+            'D': 'Henry'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'In which year was the first successful organ transplant '
+            'performed?'
+        ),
+        'options': {
+            'A': '1950',
+            'B': '1954',
+            'C': '1963',
+            'D': '1967'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which historical figure is known for his conquests and the '
+            'spread of Hellenistic culture?'
+        ),
+        'options': {
+            'A': 'Julius Caesar',
+            'B': 'Alexander the Great',
+            'C': 'Genghis Khan',
+            'D': 'Napoleon Bonaparte'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which country was the first to grant women the right to vote, '
+            'in 1893?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'United Kingdom',
+            'C': 'New Zealand',
+            'D': 'United States'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which chemical element, with atomic number 92, is used as '
+            'fuel in nuclear reactors?'
+        ),
+        'options': {
+            'A': 'Plutonium',
+            'B': 'Uranium',
+            'C': 'Thorium',
+            'D': 'Radium'
+        },
+        'correct_answer': 'B'
+    },
+
+    # Programming Languages
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming language was developed by Bjarne Stroustrup '
+            'as an extension of C?'
+        ),
+        'options': {
+            'A': 'C#',
+            'B': 'Java',
+            'C': 'Objective-C',
+            'D': 'C++'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'What type of programming language is Prolog, known for '
+            'its use in AI?'
+        ),
+        'options': {
+            'A': 'Functional',
+            'B': 'Declarative',
+            'C': 'Procedural',
+            'D': 'Object-Oriented'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which language is known for its "Write Once, Run Anywhere" '
+            'capability?'
+        ),
+        'options': {
+            'A': 'Python',
+            'B': 'Ruby',
+            'C': 'Java',
+            'D': 'C#'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming paradigm is Haskell most commonly '
+            'associated with?'
+        ),
+        'options': {
+            'A': 'Functional',
+            'B': 'Object-Oriented',
+            'C': 'Procedural',
+            'D': 'Event-Driven'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming language uses the slogan "There\'s more '
+            'than one way to do it"?'
+        ),
+        'options': {
+            'A': 'Python',
+            'B': 'Perl',
+            'C': 'Ruby',
+            'D': 'PHP'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'In Python, which data structure allows for unordered collections '
+            'of unique elements?'
+        ),
+        'options': {
+            'A': 'List',
+            'B': 'Tuple',
+            'C': 'Set',
+            'D': 'Dictionary'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming language was designed by Guido van Rossum '
+            'and released in 1991?'
+        ),
+        'options': {
+            'A': 'Python',
+            'B': 'Ruby',
+            'C': 'JavaScript',
+            'D': 'PHP'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'What is the term for a function or method that calls itself?'
+        ),
+        'options': {
+            'A': 'Recursion',
+            'B': 'Iteration',
+            'C': 'Polymorphism',
+            'D': 'Abstraction'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which language is known for its use in scientific computing '
+            'and uses the syntax: x = 2.*log(x)?'
+        ),
+        'options': {
+            'A': 'R',
+            'B': 'MATLAB',
+            'C': 'Fortran',
+            'D': 'Julia'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming language is closely associated with the '
+            'development of the Unix operating system?'
+        ),
+        'options': {
+            'A': 'Pascal',
+            'B': 'C',
+            'C': 'COBOL',
+            'D': 'Assembly'
+        },
+        'correct_answer': 'B'
+    },
+
+    # Doctor Who
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor first faced the Daleks in the serial "The Daleks"?'
+        ),
+        'options': {
+            'A': 'First Doctor',
+            'B': 'Second Doctor',
+            'C': 'Third Doctor',
+            'D': 'Fourth Doctor'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'What is the name of the Doctor\'s granddaughter, who first '
+            'appeared in "An Unearthly Child"?'
+        ),
+        'options': {
+            'A': 'Rose Tyler',
+            'B': 'Susan Foreman',
+            'C': 'Sarah Jane Smith',
+            'D': 'Donna Noble'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor was known for wearing a long scarf and a wide-brimmed '
+            'hat?'
+        ),
+        'options': {
+            'A': 'Third Doctor',
+            'B': 'Fourth Doctor',
+            'C': 'Fifth Doctor',
+            'D': 'Sixth Doctor'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor Who villain is a renegade Time Lord and was '
+            'formerly known as "Koschei"?'
+        ),
+        'options': {
+            'A': 'The Master',
+            'B': 'Davros',
+            'C': 'Rassilon',
+            'D': 'The Valeyard'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which actress played the first female incarnation of the Doctor?'
+        ),
+        'options': {
+            'A': 'Alex Kingston',
+            'B': 'Jodie Whittaker',
+            'C': 'Michelle Gomez',
+            'D': 'Karen Gillan'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which companion was a schoolteacher at Coal Hill School before '
+            'meeting the Doctor?'
+        ),
+        'options': {
+            'A': 'Rose Tyler',
+            'B': 'Martha Jones',
+            'C': 'Clara Oswald',
+            'D': 'Amy Pond'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which alien species is known for their battle cry "Sontar-Ha"?'
+        ),
+        'options': {
+            'A': 'Daleks',
+            'B': 'Cybermen',
+            'C': 'Sontarans',
+            'D': 'Zygons'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor was played by actor Sylvester McCoy?'
+        ),
+        'options': {
+            'A': 'Fourth Doctor',
+            'B': 'Sixth Doctor',
+            'C': 'Seventh Doctor',
+            'D': 'Eighth Doctor'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Time Lord founded the Time Lord society and was later '
+            'imprisoned in a black hole?'
+        ),
+        'options': {
+            'A': 'The Master',
+            'B': 'Omega',
+            'C': 'Rassilon',
+            'D': 'The Valeyard'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which companion did the Tenth Doctor wipe the memory of '
+            'to save her life?'
+        ),
+        'options': {
+            'A': 'Martha Jones',
+            'B': 'Donna Noble',
+            'C': 'Rose Tyler',
+            'D': 'Clara Oswald'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which planet has a day longer than its year due to its '
+            'slow rotation?'
+        ),
+        'options': {
+            'A': 'Mercury',
+            'B': 'Venus',
+            'C': 'Mars',
+            'D': 'Neptune'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which dwarf planet in our solar system is named after the '
+            'Roman god of the underworld?'
+        ),
+        'options': {
+            'A': 'Eris',
+            'B': 'Ceres',
+            'C': 'Makemake',
+            'D': 'Pluto'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which planet has a storm known as the "Great Dark Spot," '
+            'similar to Jupiter\'s "Great Red Spot"?'
+        ),
+        'options': {
+            'A': 'Neptune',
+            'B': 'Saturn',
+            'C': 'Mars',
+            'D': 'Uranus'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'What is the name of the largest moon of Neptune, discovered '
+            'by William Lassell in 1846?'
+        ),
+        'options': {
+            'A': 'Titan',
+            'B': 'Europa',
+            'C': 'Triton',
+            'D': 'Ganymede'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which planet is known for having the most extreme axial tilt, '
+            'causing its poles to be in darkness or sunlight for 42 years?'
+        ),
+        'options': {
+            'A': 'Mercury',
+            'B': 'Venus',
+            'C': 'Uranus',
+            'D': 'Neptune'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'What is the closest star system to Earth, consisting of '
+            'three stars, including Proxima Centauri?'
+        ),
+        'options': {
+            'A': 'Alpha Centauri',
+            'B': 'Sirius',
+            'C': 'Betelgeuse',
+            'D': 'Vega'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which planet was first visited by a spacecraft in 1974, '
+            'by NASA\'s Mariner 10?'
+        ),
+        'options': {
+            'A': 'Venus',
+            'B': 'Mars',
+            'C': 'Mercury',
+            'D': 'Jupiter'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which phenomenon occurs when the Moon passes directly '
+            'between the Earth and the Sun?'
+        ),
+        'options': {
+            'A': 'Lunar Eclipse',
+            'B': 'Solar Eclipse',
+            'C': 'Transit of Venus',
+            'D': 'Aurora Borealis'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which galaxy is on a collision course with the Milky Way, '
+            'expected to merge with it in about 4.5 billion years?'
+        ),
+        'options': {
+            'A': 'Andromeda Galaxy',
+            'B': 'Triangulum Galaxy',
+            'C': 'Whirlpool Galaxy',
+            'D': 'Sombrero Galaxy'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which space probe, launched in 1977, is the farthest human-made '
+            'object from Earth as of 2023?'
+        ),
+        'options': {
+            'A': 'Voyager 1',
+            'B': 'Pioneer 10',
+            'C': 'New Horizons',
+            'D': 'Cassini'
+        },
+        'correct_answer': 'A'
     }
 ]
