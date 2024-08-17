@@ -68,7 +68,7 @@ QUESTIONS = [
     {
         'category': '90s Music',
         'question': (
-            'Who sang the 1999 hit "Livin\' La Vida Loca"?'
+            'Who sang the 1999 hit "Livin''La Vida Loca"?'
         ),
         'options': {
             'A': 'Enrique Iglesias',
@@ -160,7 +160,7 @@ QUESTIONS = [
     {
         'category': '90s Music',
         'question': (
-            'Which Britpop band released the album "(What\'s the Story) '
+            'Which Britpop band released the album "(Whats the Story)'
             'Morning Glory?" in 1995?'
         ),
         'options': {
@@ -303,5 +303,34 @@ QUESTIONS = [
             'D': 'LL Cool J'
         },
         'correct_answer': 'B'
+    },
+    {
+        'category': 'Chuck Norris Facts',
+        'question': (
+            'How does Chuck Norris spice up his steaks?'
+        ),
+        'options': {
+            'A': 'Pepper',
+            'B': 'Salt',
+            'C': 'Radioactive Waste',
+            'D': 'Sea Water'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Chuck Norris Facts',
+        'question': (
+            'What happened when Chuck Norris was born?'
+        ),
+        'options': {
+            'A': 'He got a coffee',
+            'B': 'He took a walk in the park',
+            'C': 'He made a Lego Sculpture',
+            'D': 'He drove his mother home from the hospital'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        
     }
 ]
