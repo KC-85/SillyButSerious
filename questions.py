@@ -2576,5 +2576,149 @@ QUESTIONS = [
             'D': 'They’re unpredictable.'
         },
         'correct_answer': 'A' 
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which of these is a traditional Scottish dish?'
+        ),
+        'options': {
+            'A': 'Spotted Dick',
+            'B': 'Haggis',
+            'C': 'Toad in the Hole',
+            'D': 'Welsh Rarebit'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which part of a dog’s anatomy is often used as a term for '
+            'something cheap?'
+        ),
+        'options': {
+            'A': 'Tail',
+            'B': 'Nose',
+            'C': 'Elbow',
+            'D': 'Paw'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What is another name for a male chicken?'
+        ),
+        'options': {
+            'A': 'Cockerel',
+            'B': 'Rooster',
+            'C': 'Pecker',
+            'D': 'Cock'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What do you call a man who irons clothes?'
+        ),
+        'options': {
+            'A': 'Iron Man',
+            'B': 'Ironing Board',
+            'C': 'Press Man',
+            'D': 'Pressing Agent'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which of these is a type of pasta?'
+        ),
+        'options': {
+            'A': 'Linguini',
+            'B': 'Spaghetti',
+            'C': 'Fusilli',
+            'D': 'Farfalloni'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What’s a common nickname for someone named Richard?'
+        ),
+        'options': {
+            'A': 'Dick',
+            'B': 'Rick',
+            'C': 'Richie',
+            'D': 'Dicky'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which of these is a famous Irish dish?'
+        ),
+        'options': {
+            'A': 'Bangers and Mash',
+            'B': 'Bubble and Squeak',
+            'C': 'Colcannon',
+            'D': 'Rumbledethumps'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What name is given to the offspring of a horse and a donkey?'
+        ),
+        'options': {
+            'A': 'Mule',
+            'B': 'Hinny',
+            'C': 'Donkey',
+            'D': 'Zebra'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which of these is a term used in knitting?'
+        ),
+        'options': {
+            'A': 'Purl',
+            'B': 'Yarn',
+            'C': 'Cable',
+            'D': 'Knit-one-pearl-one'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'What is the name of the inflatable character in "Ghostbusters"?'
+        ),
+        'options': {
+            'A': 'Marshmallow Man',
+            'B': 'Stay Puft',
+            'C': 'Mr. Whippy',
+            'D': 'Dough Boy'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Adult Humor',
+        'question': (
+            'Which of these is a common British dessert?'
+        ),
+        'options': {
+            'A': 'Spotted Dick',
+            'B': 'Sticky Toffee Pudding',
+            'C': 'Jam Roly-Poly',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
     }
 ]
