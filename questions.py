@@ -2165,5 +2165,293 @@ QUESTIONS = [
             'D': 'Cassini'
         },
         'correct_answer': 'A'
+    },
+    {
+       'category': 'General Knowledge',
+        'question': (
+            'Which mathematician is credited with the invention of the binary '
+            'number system?'
+        ),
+        'options': {
+            'A': 'Isaac Newton',
+            'B': 'Gottfried Wilhelm Leibniz',
+            'C': 'Blaise Pascal',
+            'D': 'John von Neumann'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'In which year did the "Black Death" reach its peak in Europe, '
+            'decimating the population?'
+        ),
+        'options': {
+            'A': '1347',
+            'B': '1348',
+            'C': '1349',
+            'D': '1350'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which ancient civilization built the city of Machu Picchu?'
+        ),
+        'options': {
+            'A': 'Aztec',
+            'B': 'Mayan',
+            'C': 'Incan',
+            'D': 'Olmec'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which is the smallest country by area to have qualified for the '
+            'FIFA World Cup?'
+        ),
+        'options': {
+            'A': 'San Marino',
+            'B': 'Iceland',
+            'C': 'Trinidad and Tobago',
+            'D': 'Liechtenstein'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which physicist is known for the uncertainty principle, a key '
+            'concept in quantum mechanics?'
+        ),
+        'options': {
+            'A': 'Erwin Schrödinger',
+            'B': 'Werner Heisenberg',
+            'C': 'Max Planck',
+            'D': 'Niels Bohr'
+        },
+        'correct_answer': 'B'
+    },
+
+    # Programming Languages
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which early programming language was designed for symbolic '
+            'mathematics and used by NASA for its Apollo missions?'
+        ),
+        'options': {
+            'A': 'Fortran',
+            'B': 'COBOL',
+            'C': 'Lisp',
+            'D': 'Algol'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which language introduced the concept of "garbage collection"?'
+        ),
+        'options': {
+            'A': 'C++',
+            'B': 'Java',
+            'C': 'Lisp',
+            'D': 'Python'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which language was developed by Dennis Ritchie at Bell Labs '
+            'for creating operating systems?'
+        ),
+        'options': {
+            'A': 'Assembly',
+            'B': 'Pascal',
+            'C': 'C',
+            'D': 'Basic'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which programming language is known for introducing the '
+            'concept of "object-oriented programming"?'
+        ),
+        'options': {
+            'A': 'Simula',
+            'B': 'Smalltalk',
+            'C': 'C++',
+            'D': 'Java'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Programming Languages',
+        'question': (
+            'Which language is considered the precursor to Java and was '
+            'originally named "Oak"?'
+        ),
+        'options': {
+            'A': 'Python',
+            'B': 'JavaScript',
+            'C': 'Java',
+            'D': 'Ruby'
+        },
+        'correct_answer': 'C'
+    },
+
+    # Doctor Who
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor Who serial was mostly lost due to the BBC\'s '
+            'archiving policy but later reconstructed using animation?'
+        ),
+        'options': {
+            'A': 'The Daleks\' Master Plan',
+            'B': 'The Power of the Daleks',
+            'C': 'The Moonbase',
+            'D': 'The Tenth Planet'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'What is the name of the Time Lord who attempted to destroy '
+            'Gallifrey with a de-mat gun in "The Deadly Assassin"?'
+        ),
+        'options': {
+            'A': 'The Master',
+            'B': 'Omega',
+            'C': 'The Rani',
+            'D': 'Rassilon'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which Doctor Who story was set in the Tomb of the Cybermen '
+            'on Telos?'
+        ),
+        'options': {
+            'A': 'The Moonbase',
+            'B': 'The Wheel in Space',
+            'C': 'The Tomb of the Cybermen',
+            'D': 'Revenge of the Cybermen'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'Which companion was trapped in a parallel universe and '
+            'lived out her days there with a human duplicate of the '
+            'Tenth Doctor?'
+        ),
+        'options': {
+            'A': 'Rose Tyler',
+            'B': 'Martha Jones',
+            'C': 'Donna Noble',
+            'D': 'Clara Oswald'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Doctor Who',
+        'question': (
+            'What is the name of the Doctor\'s wife, who is also a '
+            'child of the TARDIS?'
+        ),
+        'options': {
+            'A': 'Amy Pond',
+            'B': 'River Song',
+            'C': 'Clara Oswald',
+            'D': 'Jenny'
+        },
+        'correct_answer': 'B'
+    },
+
+    # Astronomy
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which planet in the solar system has a day that lasts '
+            'longer than its year?'
+        ),
+        'options': {
+            'A': 'Mercury',
+            'B': 'Venus',
+            'C': 'Earth',
+            'D': 'Mars'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which exoplanet, discovered in 1995, was the first to '
+            'be confirmed orbiting a Sun-like star?'
+        ),
+        'options': {
+            'A': 'Kepler-22b',
+            'B': 'HD 209458b',
+            'C': '51 Pegasi b',
+            'D': 'Proxima Centauri b'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'What is the name of the largest known star by volume, '
+            'located in the constellation Canis Major?'
+        ),
+        'options': {
+            'A': 'Betelgeuse',
+            'B': 'VY Canis Majoris',
+            'C': 'UY Scuti',
+            'D': 'Rigel'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'Which galaxy is located approximately 3 million light-years '
+            'from Earth and is the largest member of the Local Group?'
+        ),
+        'options': {
+            'A': 'Andromeda Galaxy',
+            'B': 'Whirlpool Galaxy',
+            'C': 'Triangulum Galaxy',
+            'D': 'Sombrero Galaxy'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Astronomy',
+        'question': (
+            'What is the name of the first interstellar object detected '
+            'passing through the solar system in 2017?'
+        ),
+        'options': {
+            'A': 'Oumuamua',
+            'B': 'Borisov',
+            'C': 'Hyakutake',
+            'D': 'Tempel 1'
+        },
+        'correct_answer': 'A'
+    }, 
+    {
+        
     }
 ]
