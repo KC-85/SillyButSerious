@@ -264,5 +264,44 @@ QUESTIONS = [
             'D': 'Toni Braxton'
         },
         'correct_answer': 'C'
+    },
+    {
+        'category': '90s Music',
+        'question': (
+            'Who performed the rock song, "Thunderstruck"?'
+        ),
+        'options': {
+            'A': 'Led Zeppelin',
+            'B': 'AC/DC',
+            'C': 'Metallica',
+            'D': 'Foreigner'
+        },
+        'correct_ answer': 'B'
+    },
+    {
+        'category': '90s Music',
+        'question': (
+            'Who sang "Return of the Mack"?'
+        ),
+        'options': {
+            'A': 'Blackstreet',
+            'B': 'Mark Morrison',
+            'C': 'Will Smith',
+            'D': 'Beastie Boys'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s Music',
+        'question': (
+            'Who performed "Scenario"?'
+        ),
+        'options': {
+            'A': 'Bone, Thugs & Harmony',
+            'B': 'A Tribe Called Quest',
+            'C': 'OutKast',
+            'D': 'LL Cool J'
+        },
+        'correct_answer': 'B'
     }
 ]
