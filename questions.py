@@ -331,7 +331,7 @@ QUESTIONS = [
         'correct_answer': 'D'
     },
     {
-         'category': 'General Knowledge',
+        'category': 'General Knowledge',
         'question': 'What is the capital of France?',
         'options': {
             'A': 'Berlin',
@@ -1611,7 +1611,7 @@ QUESTIONS = [
         'correct_answer': 'B'
     },
     {
-         'category': 'General Knowledge',
+        'category': 'General Knowledge',
         'question': (
             'Which physicist developed the theory of general relativity?'
         ),
@@ -1920,7 +1920,7 @@ QUESTIONS = [
     {
         'category': 'Doctor Who',
         'question': (
-            'Which Doctor was known for wearing a long scarf and a wide-brimmed '
+            'Which Doctor was known for wearing a long scarf and a large'
             'hat?'
         ),
         'options': {
