@@ -3873,5 +3873,958 @@ QUESTIONS = [
             'D': 'All of the above'
         },
         'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 hit song by Sir Mix-a-Lot became famous for its '
+            'lyrics about liking big butts?'
+        ),
+        'options': {
+            'A': 'Baby Got Back',
+            'B': 'Jump',
+            'C': 'Super Bass',
+            'D': 'Good Vibrations'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1993 song by Wu-Tang Clan includes the line, "Cash rules '
+            'everything around me"?'
+        ),
+        'options': {
+            'A': 'C.R.E.A.M.',
+            'B': 'Protect Ya Neck',
+            'C': 'Triumph',
+            'D': 'Da Mystery of Chessboxin\''
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1996 song by 2Pac featuring Dr. Dre includes the line, '
+            '"California knows how to party"?'
+        ),
+        'options': {
+            'A': 'California Love',
+            'B': 'Changes',
+            'C': 'Hit \'Em Up',
+            'D': 'Keep Ya Head Up'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which female R&B group released the 1994 hit song "Waterfalls"?'
+        ),
+        'options': {
+            'A': 'TLC',
+            'B': 'En Vogue',
+            'C': 'SWV',
+            'D': 'Destiny\'s Child'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 R&B song by Boyz II Men spent 13 weeks at number one '
+            'on the Billboard Hot 100?'
+        ),
+        'options': {
+            'A': 'End of the Road',
+            'B': 'I\'ll Make Love to You',
+            'C': 'On Bended Knee',
+            'D': 'Motownphilly'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop duo released the 1990 hit "Groove Is in the Heart"?'
+        ),
+        'options': {
+            'A': 'Salt-N-Pepa',
+            'B': 'Deee-Lite',
+            'C': 'DJ Jazzy Jeff & The Fresh Prince',
+            'D': 'Kris Kross'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper was known as "The Notorious B.I.G."?'
+        ),
+        'options': {
+            'A': 'Tupac Shakur',
+            'B': 'Biggie Smalls',
+            'C': 'Jay-Z',
+            'D': 'Nas'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 song by Aaliyah includes the lyrics, "Back, back, '
+            'forth and forth"?'
+        ),
+        'options': {
+            'A': 'One in a Million',
+            'B': 'Are You That Somebody?',
+            'C': 'Back & Forth',
+            'D': 'If Your Girl Only Knew'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1997 song by Missy Elliott includes the line, "Beep beep, '
+            'who got the keys to the Jeep?"'
+        ),
+        'options': {
+            'A': 'The Rain (Supa Dupa Fly)',
+            'B': 'Work It',
+            'C': 'Get Ur Freak On',
+            'D': 'Hot Boyz'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the album "The Chronic" in 1992?'
+        ),
+        'options': {
+            'A': 'Snoop Dogg',
+            'B': 'Dr. Dre',
+            'C': 'Ice Cube',
+            'D': 'Nate Dogg'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 song by Warren G and Nate Dogg is considered one of '
+            'the greatest G-funk tracks of all time?'
+        ),
+        'options': {
+            'A': 'Regulate',
+            'B': 'Nuthin\' But a "G" Thang',
+            'C': 'Gin and Juice',
+            'D': 'It Was a Good Day'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B group released the 1998 hit "No Scrubs"?'
+        ),
+        'options': {
+            'A': 'TLC',
+            'B': 'Destiny\'s Child',
+            'C': 'En Vogue',
+            'D': 'SWV'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop artist released the 1996 album "All Eyez on Me"?'
+        ),
+        'options': {
+            'A': 'Nas',
+            'B': '2Pac',
+            'C': 'Jay-Z',
+            'D': 'Notorious B.I.G.'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1997 song by Puff Daddy featured the famous sample from '
+            'The Police\'s "Every Breath You Take"?'
+        ),
+        'options': {
+            'A': 'I\'ll Be Missing You',
+            'B': 'Mo Money Mo Problems',
+            'C': 'Can\'t Nobody Hold Me Down',
+            'D': 'It\'s All About the Benjamins'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B singer released the album "The Velvet Rope" in 1997?'
+        ),
+        'options': {
+            'A': 'Janet Jackson',
+            'B': 'Mariah Carey',
+            'C': 'Whitney Houston',
+            'D': 'Brandy'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which song by Montell Jordan starts with the line, "This is how '
+            'we do it"?'
+        ),
+        'options': {
+            'A': 'Return of the Mack',
+            'B': 'This Is How We Do It',
+            'C': 'Let\'s Ride',
+            'D': 'Get It On Tonite'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1995 song by Mariah Carey features Ol\' Dirty Bastard?'
+        ),
+        'options': {
+            'A': 'Fantasy (Remix)',
+            'B': 'Honey',
+            'C': 'Heartbreaker',
+            'D': 'My All'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1991 hit by Boyz II Men became one of the best-selling '
+            'singles of all time?'
+        ),
+        'options': {
+            'A': 'Motownphilly',
+            'B': 'End of the Road',
+            'C': 'I\'ll Make Love to You',
+            'D': 'One Sweet Day'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop group released the song "Tha Crossroads" in 1996?'
+        ),
+        'options': {
+            'A': 'Bone Thugs-n-Harmony',
+            'B': 'OutKast',
+            'C': 'Cypress Hill',
+            'D': 'Wu-Tang Clan'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which female rapper released the hit "U.N.I.T.Y." in 1993?'
+        ),
+        'options': {
+            'A': 'Lil\' Kim',
+            'B': 'MC Lyte',
+            'C': 'Queen Latifah',
+            'D': 'Missy Elliott'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper is known for the 1994 hit "Juicy"?'
+        ),
+        'options': {
+            'A': 'Nas',
+            'B': 'The Notorious B.I.G.',
+            'C': '2Pac',
+            'D': 'Jay-Z'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which group released the 1997 album "Aquemini"?'
+        ),
+        'options': {
+            'A': 'OutKast',
+            'B': 'Bone Thugs-n-Harmony',
+            'C': 'Wu-Tang Clan',
+            'D': 'De La Soul'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1999 album "The Slim Shady LP"?'
+        ),
+        'options': {
+            'A': 'Dr. Dre',
+            'B': 'Eminem',
+            'C': 'Snoop Dogg',
+            'D': 'Ice Cube'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B group released the hit "No Diggity" in 1996?'
+        ),
+        'options': {
+            'A': 'Blackstreet',
+            'B': 'Boyz II Men',
+            'C': 'Jodeci',
+            'D': 'Dru Hill'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1995 song by Coolio became a global hit, featured in the '
+            'film "Dangerous Minds"?'
+        ),
+        'options': {
+            'A': 'Fantastic Voyage',
+            'B': 'Gangsta\'s Paradise',
+            'C': '1, 2, 3, 4 (Sumpin\' New)',
+            'D': 'Too Hot'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B artist released the 1992 hit "Real Love"?'
+        ),
+        'options': {
+            'A': 'Mary J. Blige',
+            'B': 'Toni Braxton',
+            'C': 'Aaliyah',
+            'D': 'Faith Evans'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1991 song by Naughty by Nature includes the famous hook, '
+            '"You down with O.P.P.?"'
+        ),
+        'options': {
+            'A': 'Hip Hop Hooray',
+            'B': 'Everything\'s Gonna Be Alright',
+            'C': 'O.P.P.',
+            'D': 'Feel Me Flow'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 hit song by Brandy includes the lyrics, "Sittin\' up '
+            'in my room"?'
+        ),
+        'options': {
+            'A': 'Baby',
+            'B': 'I Wanna Be Down',
+            'C': 'Have You Ever?',
+            'D': 'Sittin\' Up In My Room'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the song "Nuthin\' but a \'G\' Thang" in '
+            '1992?'
+        ),
+        'options': {
+            'A': 'Snoop Dogg',
+            'B': 'Dr. Dre',
+            'C': 'Ice Cube',
+            'D': 'Tupac Shakur'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which female R&B group released the 1996 hit "Weak"?'
+        ),
+        'options': {
+            'A': 'TLC',
+            'B': 'SWV',
+            'C': 'Xscape',
+            'D': 'En Vogue'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1995 song by LL Cool J includes the lyrics, "Don\'t call '
+            'it a comeback, I\'ve been here for years"?'
+        ),
+        'options': {
+            'A': 'I Need Love',
+            'B': 'Mama Said Knock You Out',
+            'C': 'Around the Way Girl',
+            'D': 'Hey Lover'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop duo released the 1994 album "Illmatic"?'
+        ),
+        'options': {
+            'A': 'OutKast',
+            'B': 'Nas',
+            'C': 'Mobb Deep',
+            'D': 'A Tribe Called Quest'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B group released the 1991 hit "Motownphilly"?'
+        ),
+        'options': {
+            'A': 'Boyz II Men',
+            'B': 'Jodeci',
+            'C': 'New Edition',
+            'D': 'Bell Biv DeVoe'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1997 song by Missy Elliott includes the line, "Beep beep, '
+            'who got the keys to the Jeep?"'
+        ),
+        'options': {
+            'A': 'The Rain (Supa Dupa Fly)',
+            'B': 'Work It',
+            'C': 'Get Ur Freak On',
+            'D': 'Hot Boyz'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1996 song by Ginuwine features the lyric, "If you\'re '
+            'horny, let\'s do it, ride it, my pony"?'
+        ),
+        'options': {
+            'A': 'Pony',
+            'B': 'Differences',
+            'C': 'In Those Jeans',
+            'D': 'So Anxious'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1995 song by TLC warns against chasing after dangerous '
+            'dreams?'
+        ),
+        'options': {
+            'A': 'Waterfalls',
+            'B': 'Creep',
+            'C': 'No Scrubs',
+            'D': 'Red Light Special'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1996 song by 2Pac includes the lyric, "I see no changes, '
+            'wake up in the morning and I ask myself"?'
+        ),
+        'options': {
+            'A': 'California Love',
+            'B': 'Changes',
+            'C': 'Dear Mama',
+            'D': 'Keep Ya Head Up'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1997 album "Harlem World"?'
+        ),
+        'options': {
+            'A': 'Jay-Z',
+            'B': 'Nas',
+            'C': 'Mase',
+            'D': 'DMX'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop group released the album "The Low End Theory" '
+            'in 1991?'
+        ),
+        'options': {
+            'A': 'A Tribe Called Quest',
+            'B': 'De La Soul',
+            'C': 'Wu-Tang Clan',
+            'D': 'N.W.A.'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1993 song by Snoop Dogg includes the lyric, "With so much '
+            'drama in the L-B-C"?'
+        ),
+        'options': {
+            'A': 'Gin and Juice',
+            'B': 'What\'s My Name?',
+            'C': 'Drop It Like It\'s Hot',
+            'D': 'Who Am I (What\'s My Name)?'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the song "Hard Knock Life (Ghetto '
+            'Anthem)" in 1998?'
+        ),
+        'options': {
+            'A': 'Jay-Z',
+            'B': 'DMX',
+            'C': 'Nas',
+            'D': 'Method Man'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B artist released the 1999 hit "Back at One"?'
+        ),
+        'options': {
+            'A': 'Brian McKnight',
+            'B': 'Usher',
+            'C': 'R. Kelly',
+            'D': 'Joe'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 song by OutKast includes the line, "I know you like '
+            'to thank yo\' don\'t stank"?'
+        ),
+        'options': {
+            'A': 'Ms. Jackson',
+            'B': 'Rosa Parks',
+            'C': 'So Fresh, So Clean',
+            'D': 'Player\'s Ball'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which hip hop group released the 1992 hit "Jump Around"?'
+        ),
+        'options': {
+            'A': 'House of Pain',
+            'B': 'Cypress Hill',
+            'C': 'Run-D.M.C.',
+            'D': 'Beastie Boys'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which R&B artist released the 1997 hit "You Make Me Wanna..."?'
+        ),
+        'options': {
+            'A': 'Usher',
+            'B': 'R. Kelly',
+            'C': 'Keith Sweat',
+            'D': 'Joe'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1998 song by Lauryn Hill includes the line, "It could all '
+            'be so simple"?'
+        ),
+        'options': {
+            'A': 'Doo Wop (That Thing)',
+            'B': 'Ex-Factor',
+            'C': 'Everything Is Everything',
+            'D': 'To Zion'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 hit by Aaliyah was produced by R. Kelly?'
+        ),
+        'options': {
+            'A': 'Back & Forth',
+            'B': 'Age Ain\'t Nothing But a Number',
+            'C': 'At Your Best (You Are Love)',
+            'D': 'If Your Girl Only Knew'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1995 song by LL Cool J includes the lyrics, "Don\'t call '
+            'it a comeback, I\'ve been here for years"?'
+        ),
+        'options': {
+            'A': 'Mama Said Knock You Out',
+            'B': 'Around the Way Girl',
+            'C': 'I Need Love',
+            'D': 'Doin\' It'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1991 song by De La Soul includes the line, "Stakes is '
+            'high"?'
+        ),
+        'options': {
+            'A': 'Me, Myself and I',
+            'B': 'Buddy',
+            'C': 'A Roller Skating Jam Named Saturdays',
+            'D': 'Stakes Is High'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1999 hit by Destiny\'s Child includes the lyrics, "Say my '
+            'name, say my name"?'
+        ),
+        'options': {
+            'A': 'Jumpin\', Jumpin\'',
+            'B': 'Bills, Bills, Bills',
+            'C': 'Bug a Boo',
+            'D': 'Say My Name'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1993 hit by Snoop Dogg includes the line, "With so much '
+            'drama in the L-B-C"?'
+        ),
+        'options': {
+            'A': 'Gin and Juice',
+            'B': 'What\'s My Name?',
+            'C': 'Who Am I (What\'s My Name)?',
+            'D': 'Drop It Like It\'s Hot'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 hit by Brandy includes the lyrics, "Sittin\' up in '
+            'my room"?'
+        ),
+        'options': {
+            'A': 'Baby',
+            'B': 'I Wanna Be Down',
+            'C': 'Have You Ever?',
+            'D': 'Sittin\' Up In My Room'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1994 song "Juicy"?'
+        ),
+        'options': {
+            'A': 'The Notorious B.I.G.',
+            'B': '2Pac',
+            'C': 'Jay-Z',
+            'D': 'Nas'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 song by Dr. Dre features Snoop Dogg and is '
+            'considered a West Coast classic?'
+        ),
+        'options': {
+            'A': 'Nuthin\' but a \'G\' Thang',
+            'B': 'Gin and Juice',
+            'C': 'Who Am I (What\'s My Name)?',
+            'D': 'California Love'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1991 song by Naughty by Nature includes the famous hook, '
+            '"You down with O.P.P.?"'
+        ),
+        'options': {
+            'A': 'Hip Hop Hooray',
+            'B': 'Everything\'s Gonna Be Alright',
+            'C': 'O.P.P.',
+            'D': 'Feel Me Flow'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1993 song by Tupac Shakur includes the line, "I see no '
+            'changes, wake up in the morning and I ask myself"?'
+        ),
+        'options': {
+            'A': 'California Love',
+            'B': 'Changes',
+            'C': 'Dear Mama',
+            'D': 'Keep Ya Head Up'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1996 song by Blackstreet includes the famous chorus, "I '
+            'like the way you work it, no diggity"?'
+        ),
+        'options': {
+            'A': 'No Diggity',
+            'B': 'Don\'t Leave Me',
+            'C': 'Before I Let You Go',
+            'D': 'Fix'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 hit by TLC includes the famous chorus, "Don\'t go '
+            'chasing waterfalls"?'
+        ),
+        'options': {
+            'A': 'Waterfalls',
+            'B': 'Creep',
+            'C': 'No Scrubs',
+            'D': 'Red Light Special'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1997 hit by Puff Daddy and Faith Evans features the '
+            'sample from The Police\'s "Every Breath You Take"?'
+        ),
+        'options': {
+            'A': 'I\'ll Be Missing You',
+            'B': 'Mo Money Mo Problems',
+            'C': 'Can\'t Nobody Hold Me Down',
+            'D': 'It\'s All About the Benjamins'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1991 hit by De La Soul includes the line, "Me, myself and '
+            'I"?'
+        ),
+        'options': {
+            'A': 'Stakes Is High',
+            'B': 'Buddy',
+            'C': 'Me, Myself and I',
+            'D': 'A Roller Skating Jam Named Saturdays'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1999 hit "Back That Thang Up"?'
+        ),
+        'options': {
+            'A': 'Juvenile',
+            'B': 'Lil Wayne',
+            'C': 'Master P',
+            'D': 'Mystikal'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 hit by Arrested Development includes the chorus, '
+            '"Take me to another place, take me to another land"?'
+        ),
+        'options': {
+            'A': 'Mr. Wendal',
+            'B': 'People Everyday',
+            'C': 'Tennessee',
+            'D': 'Revolution'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1994 hit by Salt-N-Pepa includes the lyrics, "If I wanna '
+            'take a guy home with me tonight, it\'s none of your business"?'
+        ),
+        'options': {
+            'A': 'Shoop',
+            'B': 'Whatta Man',
+            'C': 'None of Your Business',
+            'D': 'Let\'s Talk About Sex'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1996 song by R. Kelly includes the lyric, "My mind\'s '
+            'tellin\' me no, but my body, my body\'s tellin\' me yes"?'
+        ),
+        'options': {
+            'A': 'Bump n\' Grind',
+            'B': 'I Believe I Can Fly',
+            'C': 'Ignition (Remix)',
+            'D': 'Step in the Name of Love'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 hit by Mary J. Blige includes the lyrics, "I\'m '
+            'searchin\' for a real love"?'
+        ),
+        'options': {
+            'A': 'Real Love',
+            'B': 'Be Happy',
+            'C': 'You Remind Me',
+            'D': 'I\'m Goin\' Down'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1999 song by Destiny\'s Child includes the lyrics, "Say '
+            'my name, say my name"?'
+        ),
+        'options': {
+            'A': 'Jumpin\', Jumpin\'',
+            'B': 'Bills, Bills, Bills',
+            'C': 'Bug a Boo',
+            'D': 'Say My Name'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1997 album "Life After Death"?'
+        ),
+        'options': {
+            'A': 'The Notorious B.I.G.',
+            'B': '2Pac',
+            'C': 'Nas',
+            'D': 'Jay-Z'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1992 song by Dr. Dre features Snoop Dogg and is '
+            'considered a West Coast classic?'
+        ),
+        'options': {
+            'A': 'Nuthin\' but a \'G\' Thang',
+            'B': 'Gin and Juice',
+            'C': 'Who Am I (What\'s My Name)?',
+            'D': 'California Love'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which rapper released the 1994 song "Juicy"?'
+        ),
+        'options': {
+            'A': 'The Notorious B.I.G.',
+            'B': '2Pac',
+            'C': 'Jay-Z',
+            'D': 'Nas'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': '90s R&B and Hip Hop',
+        'question': (
+            'Which 1999 song by Lauryn Hill includes the lyrics, "It could '
+            'all be so simple, but you\'d rather make it hard"?'
+        ),
+        'options': {
+            'A': 'Doo Wop (That Thing)',
+            'B': 'Ex-Factor',
+            'C': 'Everything Is Everything',
+            'D': 'To Zion'
+        },
+        'correct_answer': 'B'
     }
 ]
