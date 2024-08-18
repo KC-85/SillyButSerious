@@ -2720,5 +2720,252 @@ QUESTIONS = [
             'D': 'All of the above'
         },
         'correct_answer': 'D'
+    },
+    {
+         'category': 'General Knowledge',
+        'question': (
+            'Fanny Chmelar is a champion in which winter sport?'
+        ),
+        'options': {
+            'A': 'Skiing',
+            'B': 'Ice Hockey',
+            'C': 'Bobsleigh',
+            'D': 'Curling'
+        },
+        'correct_answer': 'A'
+    },
+    {
+         'category': 'General Knowledge',
+        'question': (
+            'What type of bean shares its name with an American pop singer?'
+        ),
+        'options': {
+            'A': 'Navy Bean',
+            'B': 'Lima Bean',
+            'C': 'Baked Bean',
+            'D': 'Runner Bean'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'In 2010, which of these was voted the best sound ever?'
+        ),
+        'options': {
+            'A': 'Babies laughing',
+            'B': 'Bacon sizzling',
+            'C': 'Applause',
+            'D': 'Thunder'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What do you call a person who collects matchbox covers?'
+        ),
+        'options': {
+            'A': 'Phillumenist',
+            'B': 'Numismatist',
+            'C': 'Vexillologist',
+            'D': 'Philatelist'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'The term "money shot," originated in which industry?'
+        ),
+        'options': {
+            'A': 'Finance',
+            'B': 'Photography',
+            'C': 'Adult Films',
+            'D': 'Sports'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which dog breed shares its name with a kind of coat?'
+        ),
+        'options': {
+            'A': 'Poodle',
+            'B': 'Mastiff',
+            'C': 'Pug',
+            'D': 'Labrador'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What is a "trouser snake"?'
+        ),
+        'options': {
+            'A': 'A type of lizard',
+            'B': 'A mans private parts',
+            'C': 'A type of snake',
+            'D': 'A trick question'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'A "merkin" is a type of what?'
+        ),
+        'options': {
+            'A': 'Hat',
+            'B': 'Wig',
+            'C': 'Hairpiece',
+            'D': 'Footwear'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'In which profession might someone use a "smoker"?'
+        ),
+        'options': {
+            'A': 'Chef',
+            'B': 'Firefighter',
+            'C': 'Bee Keeper',
+            'D': 'Chimney Sweep'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What might someone do with their "winkle"?'
+        ),
+        'options': {
+            'A': 'Cook it',
+            'B': 'Clean it',
+            'C': 'Eat it',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What is a "cockchafer"?'
+        ),
+        'options': {
+            'A': 'A beetle',
+            'B': 'A bird',
+            'C': 'A small rodent',
+            'D': 'A reptile'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which of these is a kind of donkey?'
+        ),
+        'options': {
+            'A': 'Kinky',
+            'B': 'Twinky',
+            'C': 'Spinky',
+            'D': 'Moke'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What might a builder use a "spirit level" for?'
+        ),
+        'options': {
+            'A': 'Getting drunk',
+            'B': 'Checking balance',
+            'C': 'Getting in the spirit',
+            'D': 'Finding ghosts'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What would you do with a "Bogey"?'
+        ),
+        'options': {
+            'A': 'Pick it',
+            'B': 'Flick it',
+            'C': 'Eat it',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which of these is a type of horse?'
+        ),
+        'options': {
+            'A': 'Stallion',
+            'B': 'Mare',
+            'C': 'Filly',
+            'D': 'Spadger'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'What is "Knickers"?'
+        ),
+        'options': {
+            'A': 'Underwear',
+            'B': 'A British dish',
+            'C': 'A type of shoe',
+            'D': 'A British expression'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which of these is a traditional Scottish instrument?'
+        ),
+        'options': {
+            'A': 'Bagpipes',
+            'B': 'Fiddle',
+            'C': 'Hurdy-Gurdy',
+            'D': 'Sitar'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which of these is a traditional French dish?'
+        ),
+        'options': {
+            'A': 'Coq au Vin',
+            'B': 'Beef Wellington',
+            'C': 'Toad in the Hole',
+            'D': 'Fish and Chips'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'General Knowledge',
+        'question': (
+            'Which of these is a traditional German dessert?'
+        ),
+        'options': {
+            'A': 'Schwarzwälder Kirschtorte',
+            'B': 'Trifle',
+            'C': 'Eton Mess',
+            'D': 'Knickerbocker Glory'
+        },
+        'correct_answer': 'A'
     }
 ]
