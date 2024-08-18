@@ -7,7 +7,8 @@ import random
 import json
 import os
 from termcolor import colored
-from questions import QUESTIONS  # Assuming QUESTIONS is imported from questions.py
+from questions import QUESTIONS
+# Assuming QUESTIONS is imported from questions.py
 
 LEADERBOARD_FILE = "leaderboard.json"
 QUIZ_LENGTHS = [10, 20, 50, 100]
@@ -15,12 +16,23 @@ QUIZ_LENGTHS = [10, 20, 50, 100]
 
 def display_welcome_message():
     """Display a welcome message and instructions for the quiz."""
-    print(colored("\n===== Welcome to the Ultimate Trivia Quiz! =====", "cyan"))
+    print(colored(
+        "\n===== Welcome to the Ultimate Trivia Quiz! =====", "cyan"
+    ))
     print(colored("\nHow to play:", "yellow"))
     print("1. Choose the number of questions you want to answer.")
-    print("2. For each question, enter the letter (A, B, C, or D) corresponding to your answer.")
-    print("3. After each question, you'll see if you were correct and your current score.")
-    print("4. At the end of the quiz, you can add your name to the leaderboard.")
+    print(
+        "2. For each question, enter the letter (A, B, C, or D) "
+        "corresponding to your answer."
+    )
+    print(
+        "3. After each question, you'll see if you were correct and "
+        "your current score."
+    )
+    print(
+        "4. At the end of the quiz, you can add your name to the "
+        "leaderboard."
+    )
     print("5. Have fun and test your knowledge across various categories!")
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
@@ -43,8 +55,13 @@ def save_leaderboard(leaderboard):
 def update_leaderboard(name, score, total_questions):
     """Update the leaderboard with a new score."""
     leaderboard = load_leaderboard()
-    leaderboard.append({"name": name, "score": score, "total": total_questions})
-    leaderboard.sort(key=lambda x: (x["score"] / x["total"], x["total"]), reverse=True)
+    leaderboard.append(
+        {"name": name, "score": score, "total": total_questions}
+    )
+    leaderboard.sort(
+        key=lambda x: (x["score"] / x["total"], x["total"]),
+        reverse=True
+    )
     leaderboard = leaderboard[:20]  # Keep only top 20
     save_leaderboard(leaderboard)
 
@@ -54,8 +71,10 @@ def display_leaderboard():
     leaderboard = load_leaderboard()
     print("\nTop 20 Leaderboard:")
     for i, entry in enumerate(leaderboard, 1):
-        print(f"{i}. {entry['name']}: {entry['score']}/{entry['total']} "
-              f"({entry['score'] / entry['total'] * 100:.2f}%)")
+        print(
+            f"{i}. {entry['name']}: {entry['score']}/{entry['total']} "
+            f"({entry['score'] / entry['total'] * 100:.2f}%)"
+        )
 
 
 def get_quiz_length():
@@ -68,7 +87,13 @@ def get_quiz_length():
             choice = int(input("Enter your choice (1-4): "))
             if 1 <= choice <= 4:
                 return QUIZ_LENGTHS[choice - 1]
-            print(colored("Invalid choice. Enter a number between 1 and 4.", "red"))
+            print(
+                colored(
+                    "Invalid choice."
+                    "Enter a number between 1 and 4 (A, B, C, D).",
+                    "red"
+                )
+            )
         except ValueError:
             print(colored("Invalid input. Please enter a number.", "red"))
 
@@ -81,7 +106,9 @@ def run_quiz():
     score = 0
 
     for question_num in range(total_questions):
-        question = random.choice([q for q in QUESTIONS if q not in asked_questions])
+        question = random.choice(
+            [q for q in QUESTIONS if q not in asked_questions]
+        )
         asked_questions.add(question)
 
         print(f"\nCategory: {question['category']}")
@@ -99,7 +126,12 @@ def run_quiz():
             print(colored("Correct!", "green"))
             score += 1
         else:
-            print(colored(f"Wrong. The correct answer was {question['correct_answer']}.", "red"))
+             print(
+        colored(
+            f"Wrong. The correct answer was {question['correct_answer']}.",
+            "red"
+        )
+    )
 
         print(f"Current Score: {score}/{question_num + 1}")
 
