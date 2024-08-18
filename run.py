@@ -106,41 +106,43 @@ def run_quiz():
     score = 0
 
     for question_num in range(total_questions):
-        question = random.choice(
-            [q for q in QUESTIONS if q not in asked_questions]
-        )
-        asked_questions.add(question)
+        # Get a question that has not been asked
+        while True:
+            question_index = random.randint(0, len(QUESTIONS) - 1)
+            if question_index not in asked_questions:
+                asked_questions.add(question_index)
+                break
 
+        question = QUESTIONS[question_index]
+
+        # Display the question
         print(f"\nCategory: {question['category']}")
         print(question['question'])
         for option, answer in question['options'].items():
             print(f"{option}: {answer}")
 
+        # Get user answer
         while True:
             user_answer = input("Your answer (A/B/C/D): ").upper()
             if user_answer in ['A', 'B', 'C', 'D']:
                 break
             print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
 
+        # Check if the answer is correct
         if user_answer == question['correct_answer']:
             print(colored("Correct!", "green"))
             score += 1
         else:
-             print(
-        colored(
-            f"Wrong. The correct answer was {question['correct_answer']}.",
-            "red"
-        )
-    )
+            print(colored(f"Wrong. The correct answer was {question['correct_answer']}.", "red"))
 
         print(f"Current Score: {score}/{question_num + 1}")
 
     print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
-
+    
+    # Update leaderboard
     name = input("Enter your name for the leaderboard: ")
     update_leaderboard(name, score, total_questions)
     display_leaderboard()
-
 
 if __name__ == "__main__":
     run_quiz()
