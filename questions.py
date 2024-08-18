@@ -2165,7 +2165,7 @@ QUESTIONS = [
         'correct_answer': 'A'
     },
     {
-       'category': 'General Knowledge',
+        'category': 'General Knowledge',
         'question': (
             'Which mathematician is credited with the invention of the binary '
             'number system?'
@@ -2446,7 +2446,7 @@ QUESTIONS = [
             'D': 'Tempel 1'
         },
         'correct_answer': 'A'
-    }, 
+    },
     {
         'category': 'Adult Humor',
         'question': (
@@ -2575,7 +2575,7 @@ QUESTIONS = [
             'C': 'They’re always late.',
             'D': 'They’re unpredictable.'
         },
-        'correct_answer': 'A' 
+        'correct_answer': 'A'
     },
     {
         'category': 'Adult Humor',
@@ -2722,7 +2722,7 @@ QUESTIONS = [
         'correct_answer': 'D'
     },
     {
-         'category': 'General Knowledge',
+        'category': 'General Knowledge',
         'question': (
             'Fanny Chmelar is a champion in which winter sport?'
         ),
@@ -2735,7 +2735,7 @@ QUESTIONS = [
         'correct_answer': 'A'
     },
     {
-         'category': 'General Knowledge',
+        'category': 'General Knowledge',
         'question': (
             'What type of bean shares its name with an American pop singer?'
         ),
@@ -2967,5 +2967,911 @@ QUESTIONS = [
             'D': 'Knickerbocker Glory'
         },
         'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is traditionally thrown at the bride and groom as they '
+            'leave the wedding ceremony?'
+        ),
+        'options': {
+            'A': 'Rice',
+            'B': 'Confetti',
+            'C': 'Flower petals',
+            'D': 'Coins'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which month is most commonly associated with weddings?'
+        ),
+        'options': {
+            'A': 'June',
+            'B': 'December',
+            'C': 'February',
+            'D': 'September'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which finger is the wedding ring traditionally worn on?'
+        ),
+        'options': {
+            'A': 'Left index finger',
+            'B': 'Right ring finger',
+            'C': 'Left ring finger',
+            'D': 'Right index finger'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the traditional anniversary gift for the first year '
+            'of marriage?'
+        ),
+        'options': {
+            'A': 'Paper',
+            'B': 'Wood',
+            'C': 'Cotton',
+            'D': 'Gold'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for the pre-wedding event where the bride is '
+            'celebrated by her friends and family?'
+        ),
+        'options': {
+            'A': 'Bachelor party',
+            'B': 'Bridal shower',
+            'C': 'Engagement party',
+            'D': 'Bachelorette party'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is traditionally something "borrowed" at a wedding?'
+        ),
+        'options': {
+            'A': 'Jewelry',
+            'B': 'Shoes',
+            'C': 'Handkerchief',
+            'D': 'Veil'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In a traditional wedding, who usually walks the bride down '
+            'the aisle?'
+        ),
+        'options': {
+            'A': 'Mother',
+            'B': 'Brother',
+            'C': 'Father',
+            'D': 'Uncle'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the most common flavor of wedding cake?'
+        ),
+        'options': {
+            'A': 'Chocolate',
+            'B': 'Vanilla',
+            'C': 'Red velvet',
+            'D': 'Fruit'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the speech given by the groom during the '
+            'wedding reception?'
+        ),
+        'options': {
+            'A': 'Best man speech',
+            'B': 'Groom’s toast',
+            'C': 'Father’s speech',
+            'D': 'Maid of honor speech'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which country is known for the tradition of the bride wearing '
+            'red at her wedding?'
+        ),
+        'options': {
+            'A': 'Japan',
+            'B': 'India',
+            'C': 'China',
+            'D': 'Mexico'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the traditional gift for a 25th wedding anniversary?'
+        ),
+        'options': {
+            'A': 'Silver',
+            'B': 'Gold',
+            'C': 'Crystal',
+            'D': 'Pearl'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the small gift given to guests at a wedding?'
+        ),
+        'options': {
+            'A': 'Souvenir',
+            'B': 'Token',
+            'C': 'Favor',
+            'D': 'Keepsake'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the post-wedding trip taken by the newlyweds?'
+        ),
+        'options': {
+            'A': 'Vacation',
+            'B': 'Honeymoon',
+            'C': 'Anniversary',
+            'D': 'Retreat'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the traditional Scottish skirt worn at '
+            'weddings?'
+        ),
+        'options': {
+            'A': 'Tartan',
+            'B': 'Kilt',
+            'C': 'Plaid',
+            'D': 'Sash'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding flower?'
+        ),
+        'options': {
+            'A': 'Rose',
+            'B': 'Daisy',
+            'C': 'Lily',
+            'D': 'Tulip'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In which country did the tradition of the white wedding dress '
+            'originate?'
+        ),
+        'options': {
+            'A': 'France',
+            'B': 'Italy',
+            'C': 'England',
+            'D': 'Spain'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding reception dance?'
+        ),
+        'options': {
+            'A': 'Waltz',
+            'B': 'Cha-Cha',
+            'C': 'Salsa',
+            'D': 'Macarena'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the traditional material for a 50th wedding anniversary '
+            'gift?'
+        ),
+        'options': {
+            'A': 'Gold',
+            'B': 'Platinum',
+            'C': 'Diamond',
+            'D': 'Ruby'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the ceremony where the bride and groom '
+            'exchange vows?'
+        ),
+        'options': {
+            'A': 'Engagement',
+            'B': 'Wedding',
+            'C': 'Reception',
+            'D': 'Bridal shower'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In a traditional Christian wedding, what color does the bride '
+            'wear?'
+        ),
+        'options': {
+            'A': 'Red',
+            'B': 'Blue',
+            'C': 'White',
+            'D': 'Gold'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the bride’s closest friend who helps her '
+            'during the wedding?'
+        ),
+        'options': {
+            'A': 'Bridesmaid',
+            'B': 'Maid of honor',
+            'C': 'Matron of honor',
+            'D': 'Flower girl'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common tradition at a wedding reception?'
+        ),
+        'options': {
+            'A': 'Cutting the cake',
+            'B': 'Throwing rice',
+            'C': 'Carrying the bride',
+            'D': 'Dancing with the father'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular honeymoon destination?'
+        ),
+        'options': {
+            'A': 'Paris',
+            'B': 'Hawaii',
+            'C': 'Maldives',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding vow?'
+        ),
+        'options': {
+            'A': 'To have and to hold',
+            'B': 'To love and cherish',
+            'C': 'In sickness and in health',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for the evening before the wedding, where '
+            'guests gather for a meal?'
+        ),
+        'options': {
+            'A': 'Rehearsal dinner',
+            'B': 'Bridal shower',
+            'C': 'Engagement party',
+            'D': 'Wedding breakfast'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is traditionally carried by the bride as she walks down '
+            'the aisle?'
+        ),
+        'options': {
+            'A': 'A Bible',
+            'B': 'A bouquet',
+            'C': 'A ring',
+            'D': 'A candle'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In a Jewish wedding, what is the glass traditionally broken '
+            'under?'
+        ),
+        'options': {
+            'A': 'Foot',
+            'B': 'Chair',
+            'C': 'Table',
+            'D': 'Hammer'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for the party thrown by the groom’s friends '
+            'before the wedding?'
+        ),
+        'options': {
+            'A': 'Stag party',
+            'B': 'Hen party',
+            'C': 'Bridal shower',
+            'D': 'Bachelor party'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is traditionally part of a wedding ceremony?'
+        ),
+        'options': {
+            'A': 'Exchanging rings',
+            'B': 'Cutting the cake',
+            'C': 'First dance',
+            'D': 'Throwing the bouquet'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular honeymoon activity?'
+        ),
+        'options': {
+            'A': 'Sightseeing',
+            'B': 'Relaxing on the beach',
+            'C': 'Adventure sports',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for the formal agreement made before marriage '
+            'that outlines the division of assets in case of divorce?'
+        ),
+        'options': {
+            'A': 'Prenuptial agreement',
+            'B': 'Marriage license',
+            'C': 'Cohabitation agreement',
+            'D': 'Divorce decree'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional part of a wedding reception?'
+        ),
+        'options': {
+            'A': 'Cutting the cake',
+            'B': 'First dance',
+            'C': 'Bouquet toss',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for the wedding ceremony where only the '
+            'bride, groom, and a few witnesses are present?'
+        ),
+        'options': {
+            'A': 'Elopement',
+            'B': 'Civil ceremony',
+            'C': 'Destination wedding',
+            'D': 'Small wedding'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In which country is it traditional to include a "unity candle" '
+            'in the wedding ceremony?'
+        ),
+        'options': {
+            'A': 'United States',
+            'B': 'Italy',
+            'C': 'France',
+            'D': 'Mexico'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the wedding party member responsible for '
+            'carrying the bride’s train?'
+        ),
+        'options': {
+            'A': 'Bridesmaid',
+            'B': 'Maid of honor',
+            'C': 'Flower girl',
+            'D': 'Train bearer'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding dress style?'
+        ),
+        'options': {
+            'A': 'Ball gown',
+            'B': 'A-line',
+            'C': 'Mermaid',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional honeymoon destination?'
+        ),
+        'options': {
+            'A': 'Paris',
+            'B': 'Hawaii',
+            'C': 'Venice',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the person who officiates a wedding?'
+        ),
+        'options': {
+            'A': 'Pastor',
+            'B': 'Priest',
+            'C': 'Rabbi',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'In which country is it traditional for the bride to wear red?'
+        ),
+        'options': {
+            'A': 'China',
+            'B': 'India',
+            'C': 'Japan',
+            'D': 'Korea'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding flower?'
+        ),
+        'options': {
+            'A': 'Rose',
+            'B': 'Lily',
+            'C': 'Tulip',
+            'D': 'Orchid'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding tradition?'
+        ),
+        'options': {
+            'A': 'Throwing rice',
+            'B': 'Exchanging rings',
+            'C': 'Cutting the cake',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding gift for a first '
+            'anniversary?'
+        ),
+        'options': {
+            'A': 'Paper',
+            'B': 'Wood',
+            'C': 'Silver',
+            'D': 'Gold'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the name of the small cake given to guests at a wedding?'
+        ),
+        'options': {
+            'A': 'Petit four',
+            'B': 'Cake pop',
+            'C': 'Wedding favor',
+            'D': 'Cupcake'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'What is the term for a wedding where the couple gets married '
+            'in a different location, often in another country?'
+        ),
+        'options': {
+            'A': 'Elopement',
+            'B': 'Destination wedding',
+            'C': 'Civil ceremony',
+            'D': 'Themed wedding'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding drink?'
+        ),
+        'options': {
+            'A': 'Champagne',
+            'B': 'Wine',
+            'C': 'Beer',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common post-wedding tradition?'
+        ),
+        'options': {
+            'A': 'Honeymoon',
+            'B': 'Anniversary celebration',
+            'C': 'Wedding shower',
+            'D': 'Engagement party'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding gift?'
+        ),
+        'options': {
+            'A': 'Toaster',
+            'B': 'Cutlery set',
+            'C': 'Dinnerware',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding superstition?'
+        ),
+        'options': {
+            'A': 'Seeing the bride before the ceremony is bad luck.',
+            'B': 'Rain on the wedding day brings good luck.',
+            'C': 'Dropping the rings is bad luck.',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional part of a Jewish wedding?'
+        ),
+        'options': {
+            'A': 'Breaking the glass',
+            'B': 'Signing the Ketubah',
+            'C': 'Chuppah',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding song?'
+        ),
+        'options': {
+            'A': 'Here Comes the Bride',
+            'B': 'Pachelbel’s Canon',
+            'C': 'Ave Maria',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding dessert?'
+        ),
+        'options': {
+            'A': 'Cake',
+            'B': 'Cupcakes',
+            'C': 'Macarons',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding color?'
+        ),
+        'options': {
+            'A': 'White',
+            'B': 'Gold',
+            'C': 'Pink',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding day accessory for the bride?'
+        ),
+        'options': {
+            'A': 'Veil',
+            'B': 'Tiara',
+            'C': 'Jewelry',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional part of a Christian wedding?'
+        ),
+        'options': {
+            'A': 'Exchange of vows',
+            'B': 'Lighting of the unity candle',
+            'C': 'First kiss as a married couple',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding theme?'
+        ),
+        'options': {
+            'A': 'Rustic',
+            'B': 'Beach',
+            'C': 'Vintage',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding day tradition for the bride?'
+        ),
+        'options': {
+            'A': 'Wearing something old',
+            'B': 'Wearing something new',
+            'C': 'Wearing something borrowed and blue',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular honeymoon activity?'
+        ),
+        'options': {
+            'A': 'Relaxing on the beach',
+            'B': 'Exploring new places',
+            'C': 'Romantic dinners',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional part of a Greek wedding?'
+        ),
+        'options': {
+            'A': 'Breaking plates',
+            'B': 'Throwing rice',
+            'C': 'Dancing the Kalamatianos',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding day tradition for the groom?'
+        ),
+        'options': {
+            'A': 'Wearing a boutonniere',
+            'B': 'Carrying the bride over the threshold',
+            'C': 'Giving a speech at the reception',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding day superstitious belief?'
+        ),
+        'options': {
+            'A': 'Rain on your wedding day is good luck.',
+            'B': 'Seeing the bride before the ceremony is bad luck.',
+            'C': 'A spider on the wedding dress is good luck.',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding cake flavor?'
+        ),
+        'options': {
+            'A': 'Vanilla',
+            'B': 'Chocolate',
+            'C': 'Red Velvet',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding reception activity?'
+        ),
+        'options': {
+            'A': 'First dance',
+            'B': 'Cutting the cake',
+            'C': 'Bouquet toss',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding dress material?'
+        ),
+        'options': {
+            'A': 'Silk',
+            'B': 'Lace',
+            'C': 'Satin',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding bouquet flower?'
+        ),
+        'options': {
+            'A': 'Roses',
+            'B': 'Lilies',
+            'C': 'Orchids',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding gift idea?'
+        ),
+        'options': {
+            'A': 'Home appliances',
+            'B': 'Gift cards',
+            'C': 'Cash',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a traditional wedding dance?'
+        ),
+        'options': {
+            'A': 'First dance',
+            'B': 'Father-daughter dance',
+            'C': 'Mother-son dance',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a popular wedding invitation style?'
+        ),
+        'options': {
+            'A': 'Rustic',
+            'B': 'Vintage',
+            'C': 'Modern',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Marriage',
+        'question': (
+            'Which of these is a common wedding day accessory for the groom?'
+        ),
+        'options': {
+            'A': 'Boutonniere',
+            'B': 'Cufflinks',
+            'C': 'Tie',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
     }
 ]
