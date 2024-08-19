@@ -17,7 +17,7 @@ QUIZ_LENGTHS = [10, 20, 50, 100]
 def display_welcome_message():
     """Display a welcome message and instructions for the quiz."""
     print(colored(
-        "\n===== Welcome to the Ultimate Trivia Quiz! =====", "cyan"
+        "\n===== Welcome to the Silly but Serious Quiz! =====", "cyan"
     ))
     print(colored("\nHow to play:", "yellow"))
     print("1. Choose the number of questions you want to answer.")
