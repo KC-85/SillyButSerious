@@ -71,7 +71,6 @@ def get_quiz_length():
         except ValueError:
             print(colored("Invalid input. Please enter a number.", "red"))
 
-
 def run_quiz():
     """Run the main quiz game."""
     display_welcome_message()
@@ -114,11 +113,6 @@ def run_quiz():
 
     clear()
     print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
-    
-    # Update leaderboard
-    name = input("Enter your name for the leaderboard: ")
-    update_leaderboard(name, score, total_questions)
-    display_leaderboard()
 
 if __name__ == "__main__":
     clear()
