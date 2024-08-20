@@ -23,7 +23,9 @@ def clear():
 
 
 def display_welcome_message():
-    """Display a welcome message and instructions for the quiz."""
+    """
+    Display a welcome message and instructions for the quiz.
+    """
     text = pyfiglet.figlet_format("Silly but Serious", font="cybermedium")
     print(text)
     print(colored(
@@ -47,46 +49,6 @@ def display_welcome_message():
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
     clear()
-
-
-def load_leaderboard():
-    """Load the leaderboard from a JSON file."""
-    if os.path.exists(LEADERBOARD_FILE):
-        with open(LEADERBOARD_FILE, 'r') as file:
-            return json.load(file)
-    return []
-
-
-def save_leaderboard(leaderboard):
-    """Save the leaderboard to a JSON file."""
-    with open(LEADERBOARD_FILE, 'w') as file:
-        json.dump(leaderboard, file)
-
-
-def update_leaderboard(name, score, total_questions):
-    """Update the leaderboard with a new score."""
-    leaderboard = load_leaderboard()
-    leaderboard.append(
-        {"name": name, "score": score, "total": total_questions}
-    )
-    leaderboard.sort(
-        key=lambda x: (x["score"] / x["total"], x["total"]),
-        reverse=True
-    )
-    leaderboard = leaderboard[:20]  # Keep only top 20
-    save_leaderboard(leaderboard)
-
-
-def display_leaderboard():
-    """Display the top 20 scores from the leaderboard."""
-    leaderboard = load_leaderboard()
-    print("\nTop 20 Leaderboard:")
-    for i, entry in enumerate(leaderboard, 1):
-        print(
-            f"{i}. {entry['name']}: {entry['score']}/{entry['total']} "
-            f"({entry['score'] / entry['total'] * 100:.2f}%)"
-        )
-
 
 def get_quiz_length():
     """Prompt the user to choose the number of questions for the quiz."""
