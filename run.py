@@ -114,6 +114,25 @@ def run_quiz():
     clear()
     print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
 
+    if play_again():
+        clear()
+        run_quiz()
+    else:
+        print("Thank you for playing! Goodbye!")
+        input("Press Enter to exit.")
+
+
+def play_again():
+    """Ask the player if they want to play again."""
+    while True:
+        choice = input("Would you like to play again? (yes/no): ").lower()
+        if choice in ['yes', 'y']:
+            return True
+        elif choice in ['no', 'n']:
+            return False
+        else:
+            print(colored("Invalid input. Please enter 'yes' or 'no'.", "red"))
+
 if __name__ == "__main__":
     clear()
     run_quiz()
