@@ -6,6 +6,7 @@ It includes functions for managing a leaderboard and displaying questions.
 import random
 import json
 import os
+import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
 # Assuming QUESTIONS is imported from questions.py
@@ -14,8 +15,17 @@ LEADERBOARD_FILE = "leaderboard.json"
 QUIZ_LENGTHS = [10, 20, 50, 100]
 
 
+def clear():
+    """
+    Clear function to clean-up the terminal so things don't get messy.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
+
+
 def display_welcome_message():
     """Display a welcome message and instructions for the quiz."""
+    text = pyfiglet.figlet_format("Silly but Serious", font="cybermedium")
+    print(text)
     print(colored(
         "\n===== Welcome to the Silly but Serious Quiz! =====", "cyan"
     ))
@@ -36,6 +46,7 @@ def display_welcome_message():
     print("5. Have fun and test your knowledge across various categories!")
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
+    clear()
 
 
 def load_leaderboard():
@@ -85,11 +96,12 @@ def get_quiz_length():
             for i, length in enumerate(QUIZ_LENGTHS, 1):
                 print(f"{i}. {length} questions")
             choice = int(input("Enter your choice (1-4): "))
+            clear()
             if 1 <= choice <= 4:
                 return QUIZ_LENGTHS[choice - 1]
             print(
                 colored(
-                    "Invalid choice."
+                    f"{choice} is an invalid choice. "
                     "Enter a number between 1 and 4 (A, B, C, D).",
                     "red"
                 )
@@ -125,6 +137,7 @@ def run_quiz():
         while True:
             user_answer = input("Your answer (A/B/C/D): ").upper()
             if user_answer in ['A', 'B', 'C', 'D']:
+                clear()
                 break
             print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
 
@@ -137,6 +150,7 @@ def run_quiz():
 
         print(f"Current Score: {score}/{question_num + 1}")
 
+    clear()
     print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
     
     # Update leaderboard
@@ -145,5 +159,6 @@ def run_quiz():
     display_leaderboard()
 
 if __name__ == "__main__":
+    clear()
     run_quiz()
     
