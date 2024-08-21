@@ -40,11 +40,7 @@ def display_welcome_message():
         "3. After each question, you'll see if you were correct and "
         "your current score."
     )
-    print(
-        "4. At the end of the quiz, you can add your name to the "
-        "leaderboard."
-    )
-    print("5. Have fun and test your knowledge across various categories!")
+    print("4. Have fun and test your knowledge across various categories!")
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
     clear()
