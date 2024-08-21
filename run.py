@@ -10,6 +10,8 @@ import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
 # Assuming QUESTIONS is imported from questions.py
+import time
+import threading
 
 QUIZ_LENGTHS = [10, 20, 50, 100]
 
@@ -44,6 +46,19 @@ def display_welcome_message():
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
     clear()
+
+    def timer(seconds, stop_event):
+        """
+        Countdown timer that runs in a separate thread.
+        Stops if stop_event is set.
+        """
+        for remaining in range(seconds, 0, -1):
+            if stop_event.is_set():
+                break
+        print(f"Time left: {remaining} seconds", end='\r')
+        time.sleep(1)
+    if not stop_event.is_set():
+        print("\nTime's up!")
 
 def get_quiz_length():
     """Prompt the user to choose the number of questions for the quiz."""
