@@ -4826,5 +4826,302 @@ QUESTIONS = [
             'D': 'To Zion'
         },
         'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country won the FIFA World Cup in 2018?',
+        'options': {
+            'A': 'Germany',
+            'B': 'Brazil',
+            'C': 'France',
+            'D': 'Argentina'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which sport is known as "The Beautiful Game"?',
+        'options': {
+            'A': 'Basketball',
+            'B': 'Soccer',
+            'C': 'Tennis',
+            'D': 'Rugby'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'How many players are there in a rugby team?',
+        'options': {
+            'A': '11',
+            'B': '13',
+            'C': '15',
+            'D': '18'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country hosted the Summer Olympics in 2008?',
+        'options': {
+            'A': 'Greece',
+            'B': 'China',
+            'C': 'Brazil',
+            'D': 'Australia'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'In which sport would you perform a slam dunk?',
+        'options': {
+            'A': 'Basketball',
+            'B': 'Volleyball',
+            'C': 'Tennis',
+            'D': 'Soccer'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Who is known as the "Lightning Bolt"?',
+        'options': {
+            'A': 'Michael Phelps',
+            'B': 'Usain Bolt',
+            'C': 'Serena Williams',
+            'D': 'Cristiano Ronaldo'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country has won the most Rugby World Cups?',
+        'options': {
+            'A': 'Australia',
+            'B': 'South Africa',
+            'C': 'New Zealand',
+            'D': 'England'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which NBA team has won the most championships?',
+        'options': {
+            'A': 'Los Angeles Lakers',
+            'B': 'Chicago Bulls',
+            'C': 'Golden State Warriors',
+            'D': 'Boston Celtics'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which golfer is nicknamed "The Golden Bear"?',
+        'options': {
+            'A': 'Tiger Woods',
+            'B': 'Phil Mickelson',
+            'C': 'Jack Nicklaus',
+            'D': 'Rory McIlroy'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'How many points is a touchdown worth in American football?',
+        'options': {
+            'A': '3',
+            'B': '6',
+            'C': '7',
+            'D': '10'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country has hosted the Winter Olympics the most times?',
+        'options': {
+            'A': 'Canada',
+            'B': 'USA',
+            'C': 'Switzerland',
+            'D': 'France'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'What is the highest possible break in snooker?',
+        'options': {
+            'A': '147',
+            'B': '155',
+            'C': '170',
+            'D': '180'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which tennis player has won the most Grand Slam titles?',
+        'options': {
+            'A': 'Roger Federer',
+            'B': 'Rafael Nadal',
+            'C': 'Novak Djokovic',
+            'D': 'Serena Williams'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'In which country did the sport of cricket originate?',
+        'options': {
+            'A': 'Australia',
+            'B': 'India',
+            'C': 'South Africa',
+            'D': 'England'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country won the first ever FIFA World Cup in 1930?',
+        'options': {
+            'A': 'Brazil',
+            'B': 'Argentina',
+            'C': 'Uruguay',
+            'D': 'Germany'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which city hosted the 2012 Summer Olympics?',
+        'options': {
+            'A': 'Beijing',
+            'B': 'London',
+            'C': 'Sydney',
+            'D': 'Rio de Janeiro'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'What is the national sport of Japan?',
+        'options': {
+            'A': 'Karate',
+            'B': 'Sumo Wrestling',
+            'C': 'Baseball',
+            'D': 'Judo'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which soccer player is known as "The King of Football"?',
+        'options': {
+            'A': 'Diego Maradona',
+            'B': 'Pelé',
+            'C': 'Zinedine Zidane',
+            'D': 'Lionel Messi'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'How many players are there on a volleyball team?',
+        'options': {
+            'A': '4',
+            'B': '5',
+            'C': '6',
+            'D': '7'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country won the Cricket World Cup in 2019?',
+        'options': {
+            'A': 'India',
+            'B': 'Australia',
+            'C': 'England',
+            'D': 'New Zealand'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which sport is played on the largest field?',
+        'options': {
+            'A': 'Football',
+            'B': 'Rugby',
+            'C': 'Cricket',
+            'D': 'Golf'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which female tennis player has won the most Grand Slams?',
+        'options': {
+            'A': 'Martina Navratilova',
+            'B': 'Steffi Graf',
+            'C': 'Serena Williams',
+            'D': 'Margaret Court'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which country has won the most Olympic medals overall?',
+        'options': {
+            'A': 'China',
+            'B': 'Russia',
+            'C': 'Germany',
+            'D': 'USA'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Sports',
+        'question': 'What is the standard length of an Olympic swimming pool?',
+        'options': {
+            'A': '25 meters',
+            'B': '50 meters',
+            'C': '100 meters',
+            'D': '200 meters'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Who holds the record for the most goals in a calendar year?',
+        'options': {
+            'A': 'Cristiano Ronaldo',
+            'B': 'Lionel Messi',
+            'C': 'Gerd Müller',
+            'D': 'Pele'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Sports',
+        'question': 'In what year was the first modern Olympic Games held?',
+        'options': {
+            'A': '1896',
+            'B': '1900',
+            'C': '1912',
+            'D': '1920'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Sports',
+        'question': 'Which basketball player is known as "His Airness"?',
+        'options': {
+            'A': 'LeBron James',
+            'B': 'Magic Johnson',
+            'C': 'Michael Jordan',
+            'D': 'Kobe Bryant'
+        },
+        'correct_answer': 'C'
     }
 ]
