@@ -60,6 +60,7 @@ def display_welcome_message():
     if not stop_event.is_set():
         print("\nTime's up!")
 
+
 def get_quiz_length():
     """Prompt the user to choose the number of questions for the quiz."""
     while True:
@@ -80,6 +81,7 @@ def get_quiz_length():
             )
         except ValueError:
             print(colored("Invalid input. Please enter a number.", "red"))
+
 
 def run_quiz():
     """
@@ -144,6 +146,7 @@ def run_quiz():
         print("Thank you for playing! Goodbye!")
         input("Press Enter to exit.")
 
+
 # Asks whether the user wants to play again.
 def play_again():
     """
@@ -158,7 +161,7 @@ def play_again():
         else:
             print(colored("Invalid input. Please enter 'yes' or 'no'.", "red"))
 
+
 if __name__ == "__main__":
     clear()
     run_quiz()
-    
