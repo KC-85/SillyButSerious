@@ -121,7 +121,7 @@ def run_quiz():
         print("Thank you for playing! Goodbye!")
         input("Press Enter to exit.")
 
-
+# Asks whether the user wants to play again.
 def play_again():
     """
     Ask the player if they want to play again.
