@@ -71,7 +71,9 @@ def get_quiz_length():
             print(colored("Invalid input. Please enter a number.", "red"))
 
 def run_quiz():
-    """Run the main quiz game."""
+    """
+    Run the main quiz game.
+    """
     display_welcome_message()
     total_questions = get_quiz_length()
     asked_questions = set()
@@ -106,7 +108,10 @@ def run_quiz():
             print(colored("Correct!", "green"))
             score += 1
         else:
-            print(colored(f"Wrong. The correct answer was {question['correct_answer']}.", "red"))
+            correct_answer_message = (
+                f"Wrong. The correct answer was {question['correct_answer']}."
+            )
+            print(colored(correct_answer_message, "red"))
 
         print(f"Current Score: {score}/{question_num + 1}")
 
@@ -122,7 +127,9 @@ def run_quiz():
 
 
 def play_again():
-    """Ask the player if they want to play again."""
+    """
+    Ask the player if they want to play again.
+    """
     while True:
         choice = input("Would you like to play again? (yes/no): ").lower()
         if choice in ['yes', 'y']:
