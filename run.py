@@ -11,7 +11,6 @@ from termcolor import colored
 from questions import QUESTIONS
 # Assuming QUESTIONS is imported from questions.py
 
-LEADERBOARD_FILE = "leaderboard.json"
 QUIZ_LENGTHS = [10, 20, 50, 100]
 
 
