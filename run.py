@@ -91,6 +91,11 @@ def run_quiz():
         for option, answer in question['options'].items():
             print(f"{option}: {answer}")
 
+        # Start the timer in a separate thread
+        stop_event = threading.Event()
+        timer_thread = threading.Thread(target=timer, args=(10, stop_event))
+        timer_thread.start()
+
         # Get user answer
         while True:
             user_answer = input("Your answer (A/B/C/D): ").upper()
@@ -99,7 +104,10 @@ def run_quiz():
                 break
             print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
 
-        # Check if the answer is correct
+        timer_thread.join()
+        # Check if user gave correct answer or didn't answer in time
+        if not user_answer:
+            print(colored("You didn't answer in time!", "red"))
         if user_answer == question['correct_answer']:
             print(colored("Correct!", "green"))
             score += 1
