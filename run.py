@@ -10,8 +10,6 @@ import pyfiglet
 from termcolor import colored
 from questions import QUESTIONS
 # Assuming QUESTIONS is imported from questions.py
-import time
-import threading
 
 QUIZ_LENGTHS = [10, 20, 50, 100]
 
@@ -46,19 +44,6 @@ def display_welcome_message():
     print(colored("\nLet's begin!", "green"))
     input("Press Enter to start...")
     clear()
-
-    def timer(seconds, stop_event):
-        """
-        Countdown timer that runs in a separate thread.
-        Stops if stop_event is set.
-        """
-        for remaining in range(seconds, 0, -1):
-            if stop_event.is_set():
-                break
-        print(f"Time left: {remaining} seconds", end='\r')
-        time.sleep(1)
-    if not stop_event.is_set():
-        print("\nTime's up!")
 
 
 def get_quiz_length():
@@ -108,11 +93,6 @@ def run_quiz():
         for option, answer in question['options'].items():
             print(f"{option}: {answer}")
 
-        # Start the timer in a separate thread
-        stop_event = threading.Event()
-        timer_thread = threading.Thread(target=timer, args=(10, stop_event))
-        timer_thread.start()
-
         # Get user answer
         while True:
             user_answer = input("Your answer (A/B/C/D): ").upper()
@@ -121,10 +101,6 @@ def run_quiz():
                 break
             print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
 
-        timer_thread.join()
-        # Check if user gave correct answer or didn't answer in time
-        if not user_answer:
-            print(colored("You didn't answer in time!", "red"))
         if user_answer == question['correct_answer']:
             print(colored("Correct!", "green"))
             score += 1
