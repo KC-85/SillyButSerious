@@ -62,7 +62,7 @@ Testing
 [!NOTE]
 For all testing, please refer to the TESTING.md file.
 
-Testing was performed manually due to the terminal-based nature of the game. The game was tested across various platforms, including different terminal emulators on desktop. Unfortunately, due to the constraints of the terminal environment, the game does not function on mobile or tablet devices.
+Testing was performed manually due to the terminal-based nature of the game. Unfortunately, due to the constraints of the terminal environment, the game does not function on mobile or tablet devices.
 
 Deployment
 Heroku Deployment
