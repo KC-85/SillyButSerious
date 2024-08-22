@@ -1,5 +1,8 @@
 SILLYBUTSERIOUS
 
+GitHub Repository here:
+
+Live Application here: https://silly-but-serious-ff8c9d0224be.herokuapp.com/
 
 source: amiresponsive
 
