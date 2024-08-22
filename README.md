@@ -1,32 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+SILLYBUTSERIOUS
 
-Welcome,
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+source: amiresponsive
 
-## Reminders
+UX
+The SillyButSerious Quiz is designed to be a fun and challenging quiz game that tests the user’s knowledge across various categories. The game targets users who enjoy trivia and want to test their skills in a competitive environment. The simple interface is intended to be intuitive, allowing users to focus on answering questions rather than navigating complex menus.
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+The game is hosted on Heroku and runs in the terminal, which presents some limitations, such as incompatibility with mobile and tablet devices. This constraint is due to the specific terminal environment provided by Code Institute.
 
-## Creating the Heroku app
+User Stories
+New Site Users
+As a new site user, I want to start the quiz easily so that I can test my knowledge.
+As a new site user, I want to see my progress after each question so that I know how well I'm doing.
+As a new site user, I want to play a quiz with a varying number of questions so that I can choose the quiz length based on my available time.
+Returning Site Users
+As a returning site user, I want to replay the quiz multiple times so that I can improve my score.
+As a returning site user, I want to challenge myself with different categories so that I can broaden my knowledge base.
+Features
+Existing Features
+Welcome Message & Instructions
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+When the user starts the game, they are greeted with a stylized welcome message using ASCII art. The instructions are displayed in a clear format, ensuring that users understand how to play.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+Question Selection
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+Users can select the number of questions they want to answer, giving them control over the quiz length.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+Question Display
 
-Connect your GitHub repository and deploy as normal.
+Each question is displayed along with multiple-choice answers. Users can select an option, and the system will provide immediate feedback on whether the answer is correct.
 
-## Constraints
+Final Score Display
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+After completing the quiz, users receive a final score that summarizes their performance.
 
----
+Future Features
+Category Selection
+Allow users to select specific categories before starting the quiz to tailor the experience to their interests.
+Timed Questions
+Introduce a time limit for each question to increase the challenge.
+Multiplayer Mode
+Implement a mode where multiple users can compete against each other in real-time.
+Tools & Technologies Used
+ used for version control. (git add, git commit, git push)
+ used for secure online code storage.
+ used for hosting the deployed back-end site.
+ used as the back-end programming language.
+ used for ASCII art text in the terminal.
+ used for colored text output in the terminal.
+Data Model
+The quiz logic is straightforward, focusing on presenting questions, recording answers, and displaying the final score. The program uses lists and dictionaries to store questions and possible answers. Random selection ensures that the same quiz does not repeat when played multiple times.
 
-Happy coding!
+python
+Copy code
+def get_quiz_length():
+    """Prompt the user to choose the number of questions for the quiz."""
+    # Code to handle quiz length selection
+The quiz questions are stored in a separate file (questions.py) and imported into the main quiz logic. This modular approach keeps the code organized and makes it easier to manage.
+
+Testing
+[!NOTE]
+For all testing, please refer to the TESTING.md file.
+
+Testing was performed manually due to the terminal-based nature of the game. The game was tested across various platforms, including different terminal emulators on desktop. Unfortunately, due to the constraints of the terminal environment, the game does not function on mobile or tablet devices.
+
+Deployment
+Heroku Deployment
+This project is deployed on Heroku and is accessible via the following link: SILLYBUTSERIOUS.
+
+Deployment steps:
+
+Follow Heroku's deployment process for a Python app, including setting up Procfile, requirements.txt, and configuring the necessary environment variables.
+Local Deployment
+To deploy this project locally:
+
+Clone the repository.
+Install the required dependencies using pip install -r requirements.txt.
+Run the application in your terminal.
+Credits
+Content
+Source	Location	Notes
+W3Schools	entire site	for general coding examples and inspiration
+StackOverflow	specific issues	for troubleshooting and code snippets
+Acknowledgements
+I would like to thank my Code Institute mentor, Tim Nelson for his support throughout the development of this project.
+Special thanks to the Code Institute Slack community for providing advice and support during development.
