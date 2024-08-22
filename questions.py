@@ -5123,5 +5123,655 @@ QUESTIONS = [
             'D': 'Kobe Bryant'
         },
         'correct_answer': 'C'
+    },
+    {
+       'category': 'Cricket',
+        'question': (
+            'Which country won the first Cricket World Cup in 1975?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'West Indies',
+            'C': 'India',
+            'D': 'England'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who is the highest run-scorer in Test cricket history?'
+        ),
+        'options': {
+            'A': 'Ricky Ponting',
+            'B': 'Jacques Kallis',
+            'C': 'Brian Lara',
+            'D': 'Sachin Tendulkar'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which bowler has taken the most wickets in ODI cricket?'
+        ),
+        'options': {
+            'A': 'Muttiah Muralitharan',
+            'B': 'Wasim Akram',
+            'C': 'Glenn McGrath',
+            'D': 'Shane Warne'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who was the first player to score a double century in '
+            'ODI cricket?'
+        ),
+        'options': {
+            'A': 'Rohit Sharma',
+            'B': 'Virender Sehwag',
+            'C': 'Sachin Tendulkar',
+            'D': 'Chris Gayle'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which cricket ground is known as "The Home of Cricket"?'
+        ),
+        'options': {
+            'A': 'Eden Gardens',
+            'B': 'The Oval',
+            'C': 'Lords',
+            'D': 'MCG'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which cricketer holds the record for the fastest century in '
+            'ODI cricket?'
+        ),
+        'options': {
+            'A': 'AB de Villiers',
+            'B': 'Shahid Afridi',
+            'C': 'Corey Anderson',
+            'D': 'Chris Gayle'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which country has won the most ICC Cricket World Cups?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'India',
+            'C': 'West Indies',
+            'D': 'England'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who was the first bowler to take 600 wickets in Test cricket?'
+        ),
+        'options': {
+            'A': 'Shane Warne',
+            'B': 'Muttiah Muralitharan',
+            'C': 'James Anderson',
+            'D': 'Anil Kumble'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which cricketer was known as "The Little Master"?'
+        ),
+        'options': {
+            'A': 'Sachin Tendulkar',
+            'B': 'Sunil Gavaskar',
+            'C': 'Don Bradman',
+            'D': 'Brian Lara'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which player holds the record for the highest individual '
+            'score in a Test match?'
+        ),
+        'options': {
+            'A': 'Brian Lara',
+            'B': 'Don Bradman',
+            'C': 'Virender Sehwag',
+            'D': 'Matthew Hayden'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who is the only cricketer to score 100 international centuries?'
+        ),
+        'options': {
+            'A': 'Ricky Ponting',
+            'B': 'Sachin Tendulkar',
+            'C': 'Jacques Kallis',
+            'D': 'Virat Kohli'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which country did Jonty Rhodes represent in international '
+            'cricket?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'England',
+            'C': 'South Africa',
+            'D': 'New Zealand'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who was the captain of the Indian cricket team when they won '
+            'the 1983 World Cup?'
+        ),
+        'options': {
+            'A': 'Kapil Dev',
+            'B': 'Sunil Gavaskar',
+            'C': 'Mohinder Amarnath',
+            'D': 'Ravi Shastri'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which cricketer was the first to score 10,000 runs in Test '
+            'cricket?'
+        ),
+        'options': {
+            'A': 'Allan Border',
+            'B': 'Sunil Gavaskar',
+            'C': 'Brian Lara',
+            'D': 'Sachin Tendulkar'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which team holds the record for the highest team score in '
+            'ODI cricket?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'England',
+            'C': 'India',
+            'D': 'South Africa'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which player has taken the most catches in Test cricket?'
+        ),
+        'options': {
+            'A': 'Rahul Dravid',
+            'B': 'Ricky Ponting',
+            'C': 'Jacques Kallis',
+            'D': 'Mark Waugh'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who was the first cricketer to take a hat-trick in a World Cup?'
+        ),
+        'options': {
+            'A': 'Chetan Sharma',
+            'B': 'Glenn McGrath',
+            'C': 'Lasith Malinga',
+            'D': 'Wasim Akram'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which player scored the fastest fifty in ODI cricket?'
+        ),
+        'options': {
+            'A': 'AB de Villiers',
+            'B': 'Shahid Afridi',
+            'C': 'Sanath Jayasuriya',
+            'D': 'Brendon McCullum'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which team won the ICC T20 World Cup in 2021?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'New Zealand',
+            'C': 'England',
+            'D': 'India'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who was the first player to reach 10,000 runs in ODI cricket?'
+        ),
+        'options': {
+            'A': 'Ricky Ponting',
+            'B': 'Sachin Tendulkar',
+            'C': 'Kumar Sangakkara',
+            'D': 'Brian Lara'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which cricketer was known as "The Wall"?'
+        ),
+        'options': {
+            'A': 'Rahul Dravid',
+            'B': 'Jacques Kallis',
+            'C': 'Ricky Ponting',
+            'D': 'Inzamam-ul-Haq'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which bowler has taken the most wickets in Test cricket history?'
+        ),
+        'options': {
+            'A': 'Shane Warne',
+            'B': 'Muttiah Muralitharan',
+            'C': 'James Anderson',
+            'D': 'Anil Kumble'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which country is the host for the 2023 ICC Cricket World Cup?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'England',
+            'C': 'India',
+            'D': 'South Africa'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Who holds the record for the highest individual score in an '
+            'ODI match?'
+        ),
+        'options': {
+            'A': 'Rohit Sharma',
+            'B': 'Martin Guptill',
+            'C': 'Chris Gayle',
+            'D': 'Virender Sehwag'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cricket',
+        'question': (
+            'Which player has hit the most sixes in international cricket?'
+        ),
+        'options': {
+            'A': 'Shahid Afridi',
+            'B': 'Chris Gayle',
+            'C': 'MS Dhoni',
+            'D': 'Rohit Sharma'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country has won the most Olympic gold medals in field '
+            'hockey?'
+        ),
+        'options': {
+            'A': 'India',
+            'B': 'Australia',
+            'C': 'Netherlands',
+            'D': 'Germany'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Who is the all-time leading goal scorer in international hockey?'
+        ),
+        'options': {
+            'A': 'Dhyan Chand',
+            'B': 'Sohail Abbas',
+            'C': 'Teun de Nooijer',
+            'D': 'Jamie Dwyer'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country hosted the 2018 Men\'s Hockey World Cup?'
+        ),
+        'options': {
+            'A': 'India',
+            'B': 'Germany',
+            'C': 'Netherlands',
+            'D': 'Australia'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player is known as "The Wizard" of Indian hockey?'
+        ),
+        'options': {
+            'A': 'Dhyan Chand',
+            'B': 'Balbir Singh Sr.',
+            'C': 'Dhanraj Pillay',
+            'D': 'Sardar Singh'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country won the inaugural Men\'s Hockey World Cup '
+            'in 1971?'
+        ),
+        'options': {
+            'A': 'India',
+            'B': 'Pakistan',
+            'C': 'Netherlands',
+            'D': 'Germany'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country won the Women\'s Hockey World Cup in 2018?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'Netherlands',
+            'C': 'England',
+            'D': 'Argentina'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player is considered the best female hockey player of '
+            'all time?'
+        ),
+        'options': {
+            'A': 'Luciana Aymar',
+            'B': 'Maartje Paumen',
+            'C': 'Alyson Annan',
+            'D': 'Maddie Hinch'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country has won the most FIH Men\'s Hockey World Cups?'
+        ),
+        'options': {
+            'A': 'Netherlands',
+            'B': 'Germany',
+            'C': 'Australia',
+            'D': 'Pakistan'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Who holds the record for the most goals in a single Men\'s '
+            'Hockey World Cup?'
+        ),
+        'options': {
+            'A': 'Dhyan Chand',
+            'B': 'Paul Litjens',
+            'C': 'Sohail Abbas',
+            'D': 'Teun de Nooijer'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country is the reigning Men\'s Hockey World Cup '
+            'champion as of 2023?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'Netherlands',
+            'C': 'Belgium',
+            'D': 'India'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player has won the FIH Player of the Year award the most '
+            'times?'
+        ),
+        'options': {
+            'A': 'Teun de Nooijer',
+            'B': 'Jamie Dwyer',
+            'C': 'Luciana Aymar',
+            'D': 'Sohail Abbas'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country is the most successful in Olympic men\'s '
+            'hockey history?'
+        ),
+        'options': {
+            'A': 'Netherlands',
+            'B': 'India',
+            'C': 'Australia',
+            'D': 'Germany'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Who was the captain of the Indian hockey team during their '
+            'gold medal win at the 1980 Olympics?'
+        ),
+        'options': {
+            'A': 'Balbir Singh Sr.',
+            'B': 'Ajit Pal Singh',
+            'C': 'Dhanraj Pillay',
+            'D': 'Pargat Singh'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country hosted the Women\'s Hockey World Cup in 2022?'
+        ),
+        'options': {
+            'A': 'Spain',
+            'B': 'Germany',
+            'C': 'Netherlands',
+            'D': 'Argentina'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player is the all-time top scorer in Women\'s Hockey '
+            'World Cup history?'
+        ),
+        'options': {
+            'A': 'Maartje Paumen',
+            'B': 'Luciana Aymar',
+            'C': 'Ellen Hoog',
+            'D': 'Sohail Abbas'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country won the Men\'s Hockey World Cup in 2014?'
+        ),
+        'options': {
+            'A': 'Australia',
+            'B': 'Netherlands',
+            'C': 'Germany',
+            'D': 'India'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country is known as the "Land of Hockey"?'
+        ),
+        'options': {
+            'A': 'India',
+            'B': 'Netherlands',
+            'C': 'Australia',
+            'D': 'Germany'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player scored the winning goal for the Netherlands in '
+            'the 2018 Women\'s Hockey World Cup final?'
+        ),
+        'options': {
+            'A': 'Maartje Paumen',
+            'B': 'Eva de Goede',
+            'C': 'Lidewij Welten',
+            'D': 'Caia van Maasakker'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country won the first Women\'s Hockey World Cup in 1974?'
+        ),
+        'options': {
+            'A': 'Netherlands',
+            'B': 'Germany',
+            'C': 'Australia',
+            'D': 'Argentina'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player was the top scorer in the 2018 Men\'s Hockey '
+            'World Cup?'
+        ),
+        'options': {
+            'A': 'Gonzalo Peillat',
+            'B': 'Blake Govers',
+            'C': 'Alexander Hendrickx',
+            'D': 'Harmanpreet Singh'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which team won the inaugural Men\'s Hockey Champions Trophy '
+            'in 1978?'
+        ),
+        'options': {
+            'A': 'Netherlands',
+            'B': 'Australia',
+            'C': 'Pakistan',
+            'D': 'Germany'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which country won the Women\'s Hockey Champions Trophy in 2016?'
+        ),
+        'options': {
+            'A': 'Netherlands',
+            'B': 'Argentina',
+            'C': 'Australia',
+            'D': 'Germany'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Hockey',
+        'question': (
+            'Which player is the youngest to play in a Men\'s Hockey World Cup?'
+        ),
+        'options': {
+            'A': 'Manpreet Singh',
+            'B': 'Jamie Dwyer',
+            'C': 'Rizwan Muhammad',
+            'D': 'Teun de Nooijer'
+        },
+        'correct_answer': 'D'
     }
 ]
+
+
+
+
+
+
