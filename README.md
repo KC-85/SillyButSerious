@@ -37,14 +37,20 @@ Final Score Display
 
 After completing the quiz, users receive a final score that summarizes their performance.
 
-Future Features
-Category Selection
+Future Features:
+Category Selection:
+
 Allow users to select specific categories before starting the quiz to tailor the experience to their interests.
-Timed Questions
+
+Timed Questions:
+
 Introduce a time limit for each question to increase the challenge.
-Multiplayer Mode
+
+Multiplayer Mode:
+
 Implement a mode where multiple users can compete against each other in real-time.
-Tools & Technologies Used
+Tools & Technologies Used:
+
  used for version control. (git add, git commit, git push)
  used for secure online code storage.
  used for hosting the deployed back-end site.
