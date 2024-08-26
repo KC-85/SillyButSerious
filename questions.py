@@ -6364,9 +6364,3 @@ QUESTIONS = [
         'correct_answer': 'A'
     }
 ]
-
-
-
-
-
-
