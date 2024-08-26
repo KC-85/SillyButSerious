@@ -5767,6 +5767,601 @@ QUESTIONS = [
             'D': 'Teun de Nooijer'
         },
         'correct_answer': 'D'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'What event sparked the beginning of World War I?'
+        ),
+        'options': {
+            'A': 'Assassination of Franz Ferdinand',
+            'B': 'Treaty of Versailles',
+            'C': 'Sinking of the Lusitania',
+            'D': 'Russian Revolution'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'Which country was first invaded by Germany in World War II?'
+        ),
+        'options': {
+            'A': 'France',
+            'B': 'Poland',
+            'C': 'Belgium',
+            'D': 'Czechoslovakia'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'What was the name of the Allied invasion of Normandy during '
+            'World War II?'
+        ),
+        'options': {
+            'A': 'Operation Barbarossa',
+            'B': 'Operation Overlord',
+            'C': 'Operation Torch',
+            'D': 'Operation Sea Lion'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'Which conference in 1945 determined the post-war reorganization '
+            'of Europe?'
+        ),
+        'options': {
+            'A': 'Yalta Conference',
+            'B': 'Potsdam Conference',
+            'C': 'Tehran Conference',
+            'D': 'Casablanca Conference'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'Who was the British Prime Minister at the outbreak of World War '
+            'II?'
+        ),
+        'options': {
+            'A': 'Winston Churchill',
+            'B': 'Neville Chamberlain',
+            'C': 'Clement Attlee',
+            'D': 'Anthony Eden'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'What was the main cause of the United States entering World War '
+            'II?'
+        ),
+        'options': {
+            'A': 'German U-boat attacks',
+            'B': 'Attack on Pearl Harbor',
+            'C': 'Invasion of Poland',
+            'D': 'Sinking of the Lusitania'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'Which country dropped the atomic bombs on Hiroshima and '
+            'Nagasaki?'
+        ),
+        'options': {
+            'A': 'United Kingdom',
+            'B': 'Soviet Union',
+            'C': 'Germany',
+            'D': 'United States'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'World War I & II',
+        'question': (
+            'What year did World War II end?'
+        ),
+        'options': {
+            'A': '1944',
+            'B': '1945',
+            'C': '1946',
+            'D': '1947'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Which war was a major conflict in Asia during the Cold War era?'
+        ),
+        'options': {
+            'A': 'Vietnam War',
+            'B': 'Korean War',
+            'C': 'Afghanistan War',
+            'D': 'All of the above'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Which country was the first to land a man on the moon?'
+        ),
+        'options': {
+            'A': 'Soviet Union',
+            'B': 'United States',
+            'C': 'China',
+            'D': 'France'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'What year did the Berlin Wall fall, leading to German '
+            'reunification?'
+        ),
+        'options': {
+            'A': '1987',
+            'B': '1988',
+            'C': '1989',
+            'D': '1990'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Who was the Soviet leader during the Cuban Missile Crisis?'
+        ),
+        'options': {
+            'A': 'Nikita Khrushchev',
+            'B': 'Joseph Stalin',
+            'C': 'Leonid Brezhnev',
+            'D': 'Mikhail Gorbachev'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'What year did the Soviet Union officially dissolve?'
+        ),
+        'options': {
+            'A': '1989',
+            'B': '1990',
+            'C': '1991',
+            'D': '1992'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Which doctrine was adopted by the U.S. to prevent the spread of '
+            'communism?'
+        ),
+        'options': {
+            'A': 'Monroe Doctrine',
+            'B': 'Truman Doctrine',
+            'C': 'Marshall Plan',
+            'D': 'Reagan Doctrine'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Which Soviet satellite was the first to orbit Earth?'
+        ),
+        'options': {
+            'A': 'Sputnik 1',
+            'B': 'Sputnik 2',
+            'C': 'Vostok 1',
+            'D': 'Soyuz 1'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Cold War',
+        'question': (
+            'Which U.S. president is credited with ending the Cold War?'
+        ),
+        'options': {
+            'A': 'Ronald Reagan',
+            'B': 'Richard Nixon',
+            'C': 'Jimmy Carter',
+            'D': 'George H.W. Bush'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which event marked the beginning of the Gulf War in 1990?'
+        ),
+        'options': {
+            'A': 'Iran-Iraq War',
+            'B': 'Invasion of Kuwait',
+            'C': 'Fall of Berlin Wall',
+            'D': 'Collapse of Soviet Union'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which leader of Iraq was overthrown during the Iraq War in 2003?'
+        ),
+        'options': {
+            'A': 'Saddam Hussein',
+            'B': 'Osama bin Laden',
+            'C': 'Muammar Gaddafi',
+            'D': 'Hosni Mubarak'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which country experienced a major tsunami disaster in 2004?'
+        ),
+        'options': {
+            'A': 'Indonesia',
+            'B': 'Japan',
+            'C': 'Philippines',
+            'D': 'Thailand'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'What year did the United Kingdom vote to leave the European '
+            'Union (Brexit)?'
+        ),
+        'options': {
+            'A': '2014',
+            'B': '2015',
+            'C': '2016',
+            'D': '2017'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which city hosted the Summer Olympics in 2016?'
+        ),
+        'options': {
+            'A': 'London',
+            'B': 'Beijing',
+            'C': 'Rio de Janeiro',
+            'D': 'Tokyo'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which movement began in 2010 and led to major political changes '
+            'in the Arab world?'
+        ),
+        'options': {
+            'A': 'Arab Spring',
+            'B': 'Jasmine Revolution',
+            'C': 'Cedar Revolution',
+            'D': 'Green Movement'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which disease caused a global pandemic in 2020?'
+        ),
+        'options': {
+            'A': 'Ebola',
+            'B': 'H1N1',
+            'C': 'COVID-19',
+            'D': 'Zika Virus'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which U.S. president was impeached twice?'
+        ),
+        'options': {
+            'A': 'Bill Clinton',
+            'B': 'Richard Nixon',
+            'C': 'George W. Bush',
+            'D': 'Donald Trump'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which country did Russia annex in 2014?'
+        ),
+        'options': {
+            'A': 'Georgia',
+            'B': 'Crimea',
+            'C': 'Ukraine',
+            'D': 'Belarus'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Post-Cold War',
+        'question': (
+            'Which environmental agreement was adopted in 2015 to combat '
+            'climate change?'
+        ),
+        'options': {
+            'A': 'Kyoto Protocol',
+            'B': 'Paris Agreement',
+            'C': 'Montreal Protocol',
+            'D': 'Rio Declaration'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which city was the host of the 2020 Summer Olympics, '
+            'delayed to 2021?'
+        ),
+        'options': {
+            'A': 'Beijing',
+            'B': 'Tokyo',
+            'C': 'Rio de Janeiro',
+            'D': 'London'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which tech company became the first to reach a $1 trillion '
+            'market capitalization in 2018?'
+        ),
+        'options': {
+            'A': 'Microsoft',
+            'B': 'Google',
+            'C': 'Apple',
+            'D': 'Amazon'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country hosted the FIFA World Cup in 2018?'
+        ),
+        'options': {
+            'A': 'Brazil',
+            'B': 'Russia',
+            'C': 'Qatar',
+            'D': 'South Africa'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'What was the main slogan of the 2016 U.S. presidential campaign '
+            'of Donald Trump?'
+        ),
+        'options': {
+            'A': 'Hope and Change',
+            'B': 'Make America Great Again',
+            'C': 'Yes We Can',
+            'D': 'Stronger Together'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which social media platform was acquired by Facebook in 2012?'
+        ),
+        'options': {
+            'A': 'Twitter',
+            'B': 'Instagram',
+            'C': 'Snapchat',
+            'D': 'LinkedIn'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which natural disaster struck Japan in 2011, causing a '
+            'nuclear meltdown?'
+        ),
+        'options': {
+            'A': 'Earthquake',
+            'B': 'Tsunami',
+            'C': 'Volcanic Eruption',
+            'D': 'Tornado'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'What year did the United States Supreme Court legalize same-sex '
+            'marriage?'
+        ),
+        'options': {
+            'A': '2013',
+            'B': '2014',
+            'C': '2015',
+            'D': '2016'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country did the U.S. withdraw troops from in 2021, ending '
+            'a 20-year war?'
+        ),
+        'options': {
+            'A': 'Iraq',
+            'B': 'Afghanistan',
+            'C': 'Syria',
+            'D': 'Libya'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which company was founded by Jeff Bezos and revolutionized online '
+            'shopping?'
+        ),
+        'options': {
+            'A': 'Amazon',
+            'B': 'eBay',
+            'C': 'Alibaba',
+            'D': 'Walmart'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which cryptocurrency became the first to exceed $60,000 per coin?'
+        ),
+        'options': {
+            'A': 'Ethereum',
+            'B': 'Litecoin',
+            'C': 'Bitcoin',
+            'D': 'Dogecoin'
+        },
+        'correct_answer': 'C'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'What was the name of the ship that blocked the Suez Canal in 2021?'
+        ),
+        'options': {
+            'A': 'Ever Given',
+            'B': 'Maersk Alabama',
+            'C': 'Titanic',
+            'D': 'Queen Mary 2'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country was the first to approve the COVID-19 vaccine for '
+            'emergency use?'
+        ),
+        'options': {
+            'A': 'United States',
+            'B': 'United Kingdom',
+            'C': 'Germany',
+            'D': 'Russia'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which environmental activist started the global "Fridays for '
+            'Future" movement?'
+        ),
+        'options': {
+            'A': 'Greta Thunberg',
+            'B': 'Malala Yousafzai',
+            'C': 'Emma Watson',
+            'D': 'Jacinda Ardern'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country experienced a military coup in 2021, '
+            'removing Aung San Suu Kyi from power?'
+        ),
+        'options': {
+            'A': 'Thailand',
+            'B': 'Myanmar',
+            'C': 'Sri Lanka',
+            'D': 'Nepal'
+        },
+        'correct_answer': 'B'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country was involved in a trade war with the United States '
+            'during Donald Trump\'s presidency?'
+        ),
+        'options': {
+            'A': 'China',
+            'B': 'Russia',
+            'C': 'Mexico',
+            'D': 'Canada'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which world leader faced widespread protests and was forced to '
+            'resign in 2019?'
+        ),
+        'options': {
+            'A': 'Theresa May',
+            'B': 'Angela Merkel',
+            'C': 'Nicolas Maduro',
+            'D': 'Evo Morales'
+        },
+        'correct_answer': 'D'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which country became the first to leave the European Union?'
+        ),
+        'options': {
+            'A': 'United Kingdom',
+            'B': 'Greece',
+            'C': 'Italy',
+            'D': 'France'
+        },
+        'correct_answer': 'A'
+    },
+    {
+        'category': 'Modern Events',
+        'question': (
+            'Which social media platform was banned in India in 2020, '
+            'citing national security concerns?'
+        ),
+        'options': {
+            'A': 'TikTok',
+            'B': 'Facebook',
+            'C': 'Twitter',
+            'D': 'Instagram'
+        },
+        'correct_answer': 'A'
     }
 ]
 
