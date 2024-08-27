@@ -42,7 +42,14 @@ def display_welcome_message():
     )
     print("4. Have fun and test your knowledge across various categories!")
     print(colored("\nLet's begin!", "green"))
-    input("Press Enter to start...")
+    
+    # Ensure only Enter key is pressed
+    while True:
+        user_input = input("Press Enter to start...")
+        if user_input == "":
+            break
+        else:
+            print(colored("Please press Enter only.", "red"))
     clear()
 
 
