@@ -276,7 +276,7 @@ QUESTIONS = [
             'C': 'Metallica',
             'D': 'Foreigner'
         },
-        'correct_ answer': 'B'
+        'correct_answer': 'B'
     },
     {
         'category': '90s Music',
@@ -4928,7 +4928,7 @@ QUESTIONS = [
     },
     {
         'category': 'Sports',
-        'question': 'How many points is a touchdown worth in American football?',
+        'question': 'How many points is a touchdown worth in American football?',  # noqa
         'options': {
             'A': '3',
             'B': '6',
@@ -4939,7 +4939,7 @@ QUESTIONS = [
     },
     {
         'category': 'Sports',
-        'question': 'Which country has hosted the Winter Olympics the most times?',
+        'question': 'Which country has hosted the Winter Olympics the most times?',  # noqa
         'options': {
             'A': 'Canada',
             'B': 'USA',
@@ -5093,7 +5093,7 @@ QUESTIONS = [
     },
     {
         'category': 'Sports',
-        'question': 'Who holds the record for the most goals in a calendar year?',
+        'question': 'Who holds the record for the most goals in a calendar year?',  # noqa
         'options': {
             'A': 'Cristiano Ronaldo',
             'B': 'Lionel Messi',
@@ -5758,7 +5758,7 @@ QUESTIONS = [
     {
         'category': 'Hockey',
         'question': (
-            'Which player is the youngest to play in a Men\'s Hockey World Cup?'
+            'Which player is the youngest to play in a Men\'s Hockey World Cup?'  # noqa
         ),
         'options': {
             'A': 'Manpreet Singh',
@@ -6229,7 +6229,7 @@ QUESTIONS = [
     {
         'category': 'Modern Events',
         'question': (
-            'Which company was founded by Jeff Bezos and revolutionized online '
+            'Which company was founded by Jeff Bezos and revolutionized online '  # noqa
             'shopping?'
         ),
         'options': {
@@ -6256,7 +6256,7 @@ QUESTIONS = [
     {
         'category': 'Modern Events',
         'question': (
-            'What was the name of the ship that blocked the Suez Canal in 2021?'
+            'What was the name of the ship that blocked the Suez Canal in 2021?'  # noqa
         ),
         'options': {
             'A': 'Ever Given',

@@ -42,7 +42,7 @@ def display_welcome_message():
     )
     print("4. Have fun and test your knowledge across various categories!")
     print(colored("\nLet's begin!", "green"))
-    
+
     # Ensure only Enter key is pressed
     while True:
         user_input = input("Press Enter to start...")
@@ -119,6 +119,7 @@ def run_quiz():
 
         print(f"Current Score: {score}/{question_num + 1}")
 
+    input('Press enter to see Final Score:')
     clear()
     print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
 
