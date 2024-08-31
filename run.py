@@ -118,14 +118,15 @@ def run_quiz():
                 if user_answer in ['A', 'B', 'C', 'D']:
                     clear()
                     break
-                print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
+                print(colored("Invalid input. Enter A, B, C, or D.", "red"))
 
             if user_answer == question['correct_answer']:
                 print(colored("Correct!", "green"))
                 score += 1
             else:
                 correct_answer_message = (
-                    f"Wrong. The correct answer was {question['correct_answer']}."
+                    "Wrong. The correct answer was "
+                    f"{question['correct_answer']}."
                 )
                 print(colored(correct_answer_message, "red"))
 
@@ -138,6 +139,7 @@ def run_quiz():
         if not play_again():
             print("Thank you for playing! Goodbye!")
             break
+
 
 
 def wait_for_enter():
