@@ -141,7 +141,6 @@ def run_quiz():
             break
 
 
-
 def wait_for_enter():
     """Wait for the user to press Enter before exiting."""
     input("Press enter to exit...")
