@@ -4,7 +4,6 @@ It includes functions for managing a leaderboard and displaying questions.
 """
 
 import random
-import json
 import os
 import pyfiglet
 from termcolor import colored
@@ -67,7 +66,7 @@ def get_quiz_length():
             print(
                 colored(
                     f"{choice} is an invalid choice. "
-                    "Enter a number between 1 and 4 (A, B, C, D).",
+                    "Enter a number between 1 and 4.",
                     "red"
                 )
             )
@@ -75,67 +74,8 @@ def get_quiz_length():
             print(colored("Invalid input. Please enter a number.", "red"))
 
 
-def run_quiz():
-    """
-    Run the main quiz game.
-    """
-    display_welcome_message()
-    total_questions = get_quiz_length()
-    asked_questions = set()
-    score = 0
-
-    for question_num in range(total_questions):
-        # Get a question that has not been asked
-        while True:
-            question_index = random.randint(0, len(QUESTIONS) - 1)
-            if question_index not in asked_questions:
-                asked_questions.add(question_index)
-                break
-
-        question = QUESTIONS[question_index]
-
-        # Display the question
-        print(f"\nCategory: {question['category']}")
-        print(question['question'])
-        for option, answer in question['options'].items():
-            print(f"{option}: {answer}")
-
-        # Get user answer
-        while True:
-            user_answer = input("Your answer (A/B/C/D): ").upper()
-            if user_answer in ['A', 'B', 'C', 'D']:
-                clear()
-                break
-            print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
-
-        if user_answer == question['correct_answer']:
-            print(colored("Correct!", "green"))
-            score += 1
-        else:
-            correct_answer_message = (
-                f"Wrong. The correct answer was {question['correct_answer']}."
-            )
-            print(colored(correct_answer_message, "red"))
-
-        print(f"Current Score: {score}/{question_num + 1}")
-
-    input('Press enter to see Final Score:')
-    clear()
-    print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
-
-    if play_again():
-        clear()
-        run_quiz()
-    else:
-        print("Thank you for playing! Goodbye!")
-        input("Press Enter to exit.")
-
-
-# Asks whether the user wants to play again.
 def play_again():
-    """
-    Ask the player if they want to play again.
-    """
+    """Ask the player if they want to play again."""
     while True:
         choice = input("Would you like to play again? (yes/no): ").lower()
         if choice in ['yes', 'y']:
@@ -146,6 +86,66 @@ def play_again():
             print(colored("Invalid input. Please enter 'yes' or 'no'.", "red"))
 
 
+def run_quiz():
+    """
+    Run the main quiz game.
+    """
+    while True:
+        display_welcome_message()
+        total_questions = get_quiz_length()
+        asked_questions = set()
+        score = 0
+
+        for question_num in range(total_questions):
+            # Get a question that has not been asked
+            while True:
+                question_index = random.randint(0, len(QUESTIONS) - 1)
+                if question_index not in asked_questions:
+                    asked_questions.add(question_index)
+                    break
+
+            question = QUESTIONS[question_index]
+
+            # Display the question
+            print(f"\nCategory: {question['category']}")
+            print(question['question'])
+            for option, answer in question['options'].items():
+                print(f"{option}: {answer}")
+
+            # Get user answer
+            while True:
+                user_answer = input("Your answer (A/B/C/D): ").upper()
+                if user_answer in ['A', 'B', 'C', 'D']:
+                    clear()
+                    break
+                print(colored("Invalid input. Please enter A, B, C, or D.", "red"))
+
+            if user_answer == question['correct_answer']:
+                print(colored("Correct!", "green"))
+                score += 1
+            else:
+                correct_answer_message = (
+                    f"Wrong. The correct answer was {question['correct_answer']}."
+                )
+                print(colored(correct_answer_message, "red"))
+
+            print(f"Current Score: {score}/{question_num + 1}")
+
+        input('Press enter to see Final Score:')
+        clear()
+        print(f"\nQuiz completed! Final Score: {score}/{total_questions}")
+
+        if not play_again():
+            print("Thank you for playing! Goodbye!")
+            break
+
+
+def wait_for_enter():
+    """Wait for the user to press Enter before exiting."""
+    input("Press enter to exit...")
+
+
 if __name__ == "__main__":
     clear()
     run_quiz()
+    wait_for_enter()
