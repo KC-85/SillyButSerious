@@ -1,113 +1,98 @@
-# SILLYBUTSERIOUS
+**
+SILLYBUTSERIOUS
 
-## This Game is Silly, yet Serious
 
-* * GitHub Repository here:
+Overview
+Silly but Serious is an interactive quiz game designed to challenge users across various categories. With a playful and engaging interface, the quiz targets trivia enthusiasts of all ages who are looking to test their knowledge in a fun and dynamic way. Whether you're aiming to improve your general knowledge or just pass the time, Silly but Serious provides a seamless and enjoyable experience.
 
-* * Live Application here: https://silly-but-serious-ff8c9d0224be.herokuapp.com/
+
 
 source: amiresponsive
 
-## UX
+UX
+The design process for Silly but Serious focused on creating an intuitive and user-friendly interface. The quiz game is easy to navigate, with clear instructions and a simple layout that prioritizes user interaction. The visual elements are both entertaining and functional, ensuring that users remain engaged throughout their quiz experience.
 
-The SillyButSerious Quiz is designed to be a fun and challenging quiz game that tests the user’s knowledge across various categories. The game targets users who enjoy trivia and want to test their skills in a competitive environment. The simple interface is intended to be intuitive, allowing users to focus on answering questions rather than navigating complex menus.
+Features
+Existing Features
+Dynamic Question Display
 
-The game is hosted on Heroku and runs in the terminal, which presents some limitations, such as incompatibility with mobile and tablet devices. This constraint is due to the specific terminal environment provided by Code Institute.
+Each quiz session presents a new set of random questions, ensuring a unique experience every time. The user can select the number of questions they want to answer, making the quiz adaptable to both quick and longer sessions.
 
-## User Stories
-### New Site Users
 
-As a new site user, I want to start the quiz easily so that I can test my knowledge.
-As a new site user, I want to see my progress after each question so that I know how well I'm doing.
-As a new site user, I want to play a quiz with a varying number of questions so that I can choose the quiz length based on my available time.
+Real-time Feedback
 
-## Returning Site Users
-As a returning site user, I want to replay the quiz multiple times so that I can improve my score.
-As a returning site user, I want to challenge myself with different categories so that I can broaden my knowledge base.
+Users receive immediate feedback after each question, showing whether their answer was correct or not. This feature keeps the user engaged and informed about their progress throughout the quiz.
 
-## Features
-### Existing Features
-### Welcome Message & Instructions
 
-When the user starts the game, they are greeted with a stylized welcome message using ASCII art. The instructions are displayed in a clear format, ensuring that users understand how to play.
+Score Tracking
 
-### Question Selection
+The quiz tracks the user's score and displays it after each question, along with the final score at the end of the session. This feature adds a competitive element to the game, encouraging users to improve their performance.
 
-Users can select the number of questions they want to answer, giving them control over the quiz length.
 
-### Question Display
+Future Features
+Leaderboards
 
-Each question is displayed along with multiple-choice answers. Users can select an option, and the system will provide immediate feedback on whether the answer is correct.
+Implement a leaderboard system where users can compare their scores with others. This feature will add a competitive edge and encourage repeat gameplay.
+Category Selection
 
-### Final Score Display
+Allow users to choose specific categories before starting the quiz, tailoring the quiz experience to their interests.
+Timed Questions
 
-After completing the quiz, users receive a final score that summarizes their performance.
+Introduce a timer for each question to increase the challenge and excitement of the game.
+Tools & Technologies Used
+used for version control. (git add, git commit, git push)
+used for secure online code storage.
+used for hosting the deployed back-end site.
+used as the back-end programming language.
+used as my local IDE for development.
+Data Model
+Flowchart
+A flowchart was created to map out the logic of the quiz game before coding began. This helped in visualizing the user journey and ensuring a smooth user experience.
 
-## Future Features:
-### Category Selection:
 
-Allow users to select specific categories before starting the quiz to tailor the experience to their interests.
 
-### Timed Questions:
+Classes & Functions
+The program is structured using functions to handle various parts of the quiz game:
 
-Introduce a time limit for each question to increase the challenge.
-
-### Multiplayer Mode:
-
-Implement a mode where multiple users can compete against each other in real-time.
-
-## Tools & Technologies Used:
-
- used for version control. (git add, git commit, git push)
- used for secure online code storage.
- used for hosting the deployed back-end site.
- used as the back-end programming language.
- used for ASCII art text in the terminal.
- used for colored text output in the terminal.
-
-### Data Model:
-
-The quiz logic is straightforward, focusing on presenting questions, recording answers, and displaying the final score. The program uses lists and dictionaries to store questions and possible answers. Random selection ensures that the same quiz does not repeat when played multiple times.
-
-### Language(s) used: 
-
-Python
-### Copy code:
-
-def get_quiz_length():
-    """Prompt the user to choose the number of questions for the quiz."""
-    # Code to handle quiz length selection
-
-The quiz questions are stored in a separate file (questions.py) and imported into the main quiz logic. This modular approach keeps the code organized and makes it easier to manage.
-
-## Testing:
+run_quiz()
+Controls the main flow of the quiz, including question selection and score tracking.
+display_welcome_message()
+Displays the welcome message and instructions for the quiz.
+get_quiz_length()
+Prompts the user to select the number of questions for the quiz.
+play_again()
+Asks the user if they want to play again after completing the quiz.
+Testing
 [!NOTE]
 For all testing, please refer to the TESTING.md file.
 
-Testing was performed manually due to the terminal-based nature of the game. Unfortunately, due to the constraints of the terminal environment, the game does not function on mobile or tablet devices.
-
 Deployment
+The Silly but Serious quiz game is deployed on Heroku. Below are the steps taken to deploy the project:
+
 Heroku Deployment
-This project is deployed on Heroku and is accessible via the following link: SILLYBUTSERIOUS.
-
-### Deployment steps:
-
-Follow Heroku's deployment process for a Python app, including setting up Procfile, requirements.txt, and configuring the necessary environment variables.
+Create a New App on the Heroku dashboard.
+Add Buildpacks: Python first, then Node.js.
+Configure Config Vars such as PORT and any secret keys.
+Ensure the following files are present:
+requirements.txt
+Procfile
+runtime.txt
+Push the project to Heroku using Git.
 Local Deployment
+To run the project locally:
 
-### To deploy this project locally:
-
-Clone the repository.
-Install the required dependencies using pip install -r requirements.txt.
-Run the application in your terminal.
-
-## Credits
-### Content
+Clone the repository: git clone https://github.com/KC-85/SillyButSerious.git
+Install dependencies: pip3 install -r requirements.txt
+Run the app locally and test the features.
+Credits
+Content
 Source	Location	Notes
-W3Schools	entire site	for general coding examples and inspiration
-StackOverflow	specific issues	for troubleshooting and code snippets
-
-### Acknowledgements
-
-I would like to thank my Code Institute mentor, Tim Nelson (traveltimn)for his amazing support & confidence boosts throughout the development of this project.
-And a thank you to the Code Institute Slack community for providing advice and support during development.
+YouTube	terminal	Tutorial for adding color to the Python terminal
+StackOverflow	various	Helped troubleshoot code issues during development
+Media
+Source	Location	Type	Notes
+Pexels	hero image	image	Favicon and hero image
+Unsplash	quiz images	image	Quiz background images
+Acknowledgements
+Special thanks to my Code Institute mentor for guidance and feedback throughout this project.
+Thanks to the Code Institute Slack community for support and troubleshooting help.****
