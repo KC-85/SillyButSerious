@@ -3,85 +3,110 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+⚠️ INSTRUCTIONS ⚠️
 
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
+In the following sections, you need to convince the assessors that you have conducted enough manual testing to legitimately believe that the site works well. Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Feature-by-Feature Testing:
-
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
-Compatibility Testing:
-
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-- Performance Testing (optional):
-	- Speed and Load Testing: Tools like PageSpeed Insights or GTmetrix to check page load times and optimize where necessary.
-	- Scalability Testing: Assess how the site handles increased traffic or usage.
-
-Regression Testing:
-
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
-
-Documentation and Logs:
-
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+⚠️ --- END --- ⚠️
 
 ## Code Validation
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+⚠️ INSTRUCTIONS ⚠️
 
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
+Use the space below to discuss code validation for all of your own code files (*where applicable*). You are not required to validate external libraries/frameworks.
 
-**IMPORTANT**: You must provide a screenshot for each file you validate.
+**MANDATORY**: You must provide a screenshot for each file you validate.
 
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
+**PRO TIP**: Where possible, always validate the live URL pages/files, not your local code using copy/paste. There could be subtle/hidden differences.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-### JavaScript
-
-I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
-
+⚠️ --- END --- ⚠️
 
 ### Python
 
+⚠️ INSTRUCTIONS ⚠️
+
+The [CI Python Linter](https://pep8ci.herokuapp.com) can be used two different ways.
+
+- Copy/Paste your Python code directly into the linter.
+- As an API, using the "raw" URL appended to the linter URL.
+    - To find the "raw" URL, navigate to your file directly on the GitHub repo.
+    - On that page, GitHub provides a button on the right called "Raw" that you can click.
+    - From that new page, copy the full URL, and paste it after the CI Python Linter URL (with a `/` separator).
+
+It's recommended to validate each file using the API URL. This will give you a custom URL which you can use on your testing documentation. It makes it easier to return back to a file for validating it again in the future. Use the steps above to generate your own custom URLs for each Python file.
+
+**IMPORTANT**: `E501 line too long` errors
+
+You must strive to fix all Python lines that are too long (>80 characters). In rare cases where you cannot break the lines [*without breaking the functionality*], adding "`  # noqa`" (*NO Quality Assurance*) to the end of those lines will ignore linting validation. Do not use "`  # noqa`" all over your project just to clear down validation errors! This can still cause a project to fail, for failing to fix actual PEP8 validation errors.
+
+Sometimes variables can get too long, or excessive `if/else` conditional statements. These are acceptable instances to use the "`  # noqa`" comment.
+
+When trying to fix "line too long" errors, try to avoid using `/` to split lines. A better approach would be to use any type of opening bracket, and hit `<Enter>` just after that. Any opening bracket type will work: `(`, `[`, `{`. By using an opening bracket, Python knows where to appropriately indent the next line of code, without having to *guess* for yourself and attempt to "tab" to the correct indentation level.
+
+⚠️ --- END --- ⚠️
+
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
-| Directory | File | CI URL | Screenshot | Notes |
+| Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-|  | questions.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/KC-85/SillyButSerious/main/questions.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | run.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/KC-85/SillyButSerious/main/run.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | [questions.py](https://github.com/KC-85/SillyButSerious/blob/main/questions.py) | [PEP8 CI Link](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/KC-85/SillyButSerious/main/questions.py) | ![screenshot](documentation/validation/py--questions.png) | ⚠️ Notes (if applicable) |
+|  | [run.py](https://github.com/KC-85/SillyButSerious/blob/main/run.py) | [PEP8 CI Link](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/KC-85/SillyButSerious/main/run.py) | ![screenshot](documentation/validation/py--run.png) | ⚠️ Notes (if applicable) |
+
+
+## Responsiveness
+
+🛑 NOTE 🛑
+
+You are NOT required to showcase "Responsiveness" testing for PP3. The Python terminal was provided to you by Code Institute, and there are known issues with it not being responsive. Responsiveness testing for PP3 is only an added bonus, so if you don't want to include it, feel free to remove this entire **Responsiveness** section.
+
+If you are performing responsiveness tests, here are some known issues that you can document for PP3 specifically:
+
+- `overflow-x` on mobile devices
+- iPhone/Apple devices do not allow users to type anything into the terminal
+- Android devices do work on mobile, but it sometimes decides to stop randomly
+
+🛑 --- END --- 🛑
+
+⚠️ INSTRUCTIONS ⚠️
+
+Use this space to discuss testing the live/deployed site on various device sizes.
+
+The minimum requirement is to test the following 3 sizes:
+
+- Mobile
+- Tablet
+- Desktop
+
+**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
+
+Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
+
+If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
+
+⚠️ --- END --- ⚠️
+
+I've tested my deployed project to check for responsiveness issues.
+
+| Mobile | Tablet | Desktop | Notes |
+| --- | --- | --- | --- |
+| ![screenshot](documentation/responsiveness/mobile-terminal.png) | ![screenshot](documentation/responsiveness/tablet-terminal.png) | ![screenshot](documentation/responsiveness/desktop-terminal.png) | Mobile issues: `overflow-x`, doesn't work on iPhones, but does work on Android with some limitations |
 
 ## Browser Compatibility
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+🛑 NOTE 🛑
 
-Use this space to discuss testing the live/deployed site on various browsers.
+You are NOT required to showcase "Browser Compatibility" testing for PP3. The Python terminal was provided to you by Code Institute, and there are known issues with it not being compatible for all browsers. Compatibility testing for PP3 is only an added bonus, so if you don't want to include it, feel free to remove this entire **Browser Compatibility** section.
 
-Consider testing AT LEAST 3 different browsers, if available on your system.
+If you are performing compatibility tests, here is a known issue that you can document for PP3 specifically:
 
-You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
+- Firefox: emojis get cut-off
+- Safari: doesn't work well for any Apple devices except MacBooks
+
+🛑 --- END --- 🛑
+
+⚠️ INSTRUCTIONS ⚠️
+
+Use this space to discuss testing the live/deployed site on various browsers. Consider testing at least 3 different browsers, if available on your system. You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
 
 Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
@@ -91,89 +116,74 @@ Recommended browsers to consider:
 - [Brave](https://brave.com/download)
 - [Opera](https://www.opera.com/download)
 
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
+**IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
 
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
+Please note, there are services out there that can test multiple browser compatibilities at the same time. Some of these are paid services, but some are free. If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
 
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+⚠️ --- END --- ⚠️
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-about.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-about.png) | ![screenshot](documentation/browsers/browser-chrome-edge.png) | ![screenshot](documentation/browsers/browser-edge-etc.png) | Works as expected |
-| Safari | ![screenshot](documentation/browsers/browser-safari-home.png) | ![screenshot](documentation/browsers/browser-safari-about.png) | ![screenshot](documentation/browsers/browser-safari-contact.png) | ![screenshot](documentation/browsers/browser-safari-etc.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browsers/browser-brave-home.png) | ![screenshot](documentation/browsers/browser-brave-about.png) | ![screenshot](documentation/browsers/browser-brave-contact.png) | ![screenshot](documentation/browsers/browser-brave-etc.png) | Works as expected |
-| Opera | ![screenshot](documentation/browsers/browser-opera-home.png) | ![screenshot](documentation/browsers/browser-opera-about.png) | ![screenshot](documentation/browsers/browser-opera-contact.png) | ![screenshot](documentation/browsers/browser-opera-etc.png) | Minor differences |
-| repeat for any other tested browsers | x | x | x | x | x |
-
-## Responsiveness
-
-Unfortunately, this application will not work properly on mobile/tablet, this is because of a limitation due to the specific terminal that was provided.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-
-| Page | Mobile | Desktop | Notes |
+| Chrome | Firefox | Safari | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse/lighthouse-about-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-about-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| ![screenshot](documentation/browsers/chrome-terminal.png) | ![screenshot](documentation/browsers/firefox-terminal.png) | ![screenshot](documentation/browsers/safari-terminal.png) | Chrome: work as expected. Firefox: emojis get cut-off. Safari: some limitations. |
+
+## Lighthouse Audit
+
+🛑 NOTE 🛑
+
+You are NOT required to showcase "Lighthouse Audit" testing for PP3. The Python terminal was provided to you by Code Institute, and there are known issues with it not having decent scores, especially on mobile. Lighthouse testing for PP3 is only an added bonus, so if you don't want to include it, feel free to remove this entire **Lighthouse Audit** section.
+
+If you are performing Lighthouse tests, here is a known issue that you can document for PP3 specifically:
+
+- Mobile: external render-blocking resources & third-party cookies lower performance and best practices scores.
+
+🛑 --- END --- 🛑
+
+⚠️ INSTRUCTIONS ⚠️
+
+Use this space to discuss testing the live/deployed site's Lighthouse Audit reports. Avoid testing the local version (Gitpod/VSCode/etc.), as this can have knock-on effects for performance. If you don't have "Lighthouse" in your Developer Tools, it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
+
+Unless your project is a single-page application (SPA), you should test Lighthouse Audit results for all of your pages, for both *mobile* and *desktop*.
+
+**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
+
+⚠️ --- END --- ⚠️
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
+
+| Mobile | Desktop |
+| --- | --- |
+| ![screenshot](documentation/lighthouse/mobile-terminal.png) | ![screenshot](documentation/lighthouse/desktop-terminal.png) |
 
 ## Defensive Programming
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+⚠️ INSTRUCTIONS ⚠️
 
-Defensive programming (defensive design) is extremely important!
+Defensive programming (defensive design) is extremely important! When building projects that accept user inputs or forms, you should always test the level of security for each form field. Examples of this could include (but not limited to):
 
-When building projects that accept user inputs or forms, you should always test the level of security for each.
-Examples of this could include (not limited to):
+All Projects:
 
-Forms:
-- Users cannot submit an empty form
-- Users must enter valid email addresses
+- Users cannot submit an empty form (add the `required` attribute)
+- Users must enter valid field types (ensure the correct input `type=""` is used)
+- Users cannot brute-force a URL to navigate to a restricted pages
 
-PP3 (Python-only):
-- Users must enter a valid letter/word/string when prompted
-- Users must choose from a specific list only
+Python Projects:
 
-MS3 (Flask) | MS4/PP4/PP5 (Django):
-- Users cannot brute-force a URL to navigate to a restricted page
-- Users cannot perform CRUD functionality while logged-out
+- Users cannot perform CRUD functionality if not authenticated (if login functionality exists)
 - User-A should not be able to manipulate data belonging to User-B, or vice versa
 - Non-Authenticated users should not be able to access pages that require authentication
-- Standard users should not be able to access pages intended for superusers
+- Standard users should not be able to access pages intended for superusers/admins
 
-You'll want to test all functionality on your application, whether it's a standard form,
-or uses CRUD functionality for data manipulation on a database.
-Make sure to include the `required` attribute on any form-fields that should be mandatory.
-Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser).
+You'll want to test all functionality on your application, whether it's a standard form, or CRUD functionality, for data manipulation on a database. Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser). You should include any manual tests performed, and the expected results/outcome.
 
-You should include any manual tests performed, and the expected results/outcome.
+Testing should be replicable (can someone else replicate the same outcome?). Ideally, tests cases should focus on each individual section of every page on the website. Each test case should be specific, objective, and step-wise replicable.
 
-Testing should be replicable.
-Ideally, tests cases should focus on each individual section of every page on the website.
-Each test case should be specific, objective, and step-wise replicable.
-
-Instead of adding a general overview saying that everything works fine,
-consider documenting tests on each element of the page
-(ie. button clicks, input box validation, navigation links, etc.) by testing them in their happy flow,
-and also the bad/exception flow, mentioning the expected and observed results,
-and drawing a parallel between them where applicable.
+Instead of adding a general overview saying that everything works fine, consider documenting tests on each element of the page (eg. button clicks, input box validation, navigation links, etc.) by testing them in their "happy flow", their "bad/exception flow", mentioning the expected and observed results, and drawing a parallel between them where applicable.
 
 Consider using the following format for manual test cases:
 
-Expected Outcome / Test Performed / Result Received / Fixes Implemented
+- Expected Outcome / Test Performed / Result Received / Fixes Implemented
 
 - **Expected**: "Feature is expected to do X when the user does Y."
 - **Testing**: "Tested the feature by doing Y."
@@ -183,186 +193,95 @@ Expected Outcome / Test Performed / Result Received / Fixes Implemented
 
 Use the table below as a basic start, and expand on it using the logic above.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+⚠️ --- END --- ⚠️
 
 Defensive programming was manually tested with the below user acceptance testing:
 
-| Page | Expectation | Test | Result | Fix | Screenshot |
-| --- | --- | --- | --- | --- | --- |
-| Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature01.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature02.png) |
-| About | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature04.png) |
-| Gallery | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature06.png) |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/features/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/features/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Another way of performing defensive testing is a simple Pass/Fail for each test.
-The assessors prefer the above method, with the full test explained, but this is also acceptable in most cases.
-
-When in doubt, use the above method instead, and delete the table below.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-| Page | User Action | Expected Result | Pass/Fail | Comments |
+| Feature | Expectation | Test | Result | Screenshot |
 | --- | --- | --- | --- | --- |
-| Home | | | | |
-| | Click on Logo | Redirection to Home page | Pass | |
-| | Click on Home link in navbar | Redirection to Home page | Pass | |
-| Gallery | | | | |
-| | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
-| | Load gallery images | All images load as expected | Pass | |
-| Contact | | | | |
-| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-| | Enter first/last name | Field will accept freeform text | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter message in textarea | Field will accept freeform text | Pass | |
-| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
-| Sign Up | | | | |
-| | Click on Sign Up button | Redirection to Sign Up page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password (twice) | Field will only accept password format | Pass | |
-| | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
-| | Confirm email | Redirects user to blank Sign In page | Pass | |
-| Log In | | | | |
-| | Click on the Login link | Redirection to Login page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password | Field will only accept password format | Pass | |
-| | Click Login button | Redirects user to home page | Pass | |
-| Log Out | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
-| Profile | | | | |
-| | Click on Profile button | User will be redirected to the Profile page | Pass | |
-| | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
-| | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
-| | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
-| repeat for all remaining pages | x | x | x | x |
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Repeat for all other tests, as applicable to your own site.
-The aforementioned tests are just an example of a few different project scenarios.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+| Sales Input | Feature is expected to allow users to input the number of each sandwich type sold during the day. | Entered sales data for various sandwich types using a mock dataset. | Sales data was successfully recorded and saved. | ![screenshot](documentation/defensive/sales-input.png) |
+| | Feature is expected to minimize typing for quick input. | Used pre-defined options for sandwich types to streamline data entry. | Input process was fast and required minimal typing. | ![screenshot](documentation/defensive/quick-input.png) |
+| Sales Breakdown | Feature is expected to show a breakdown of total sandwich sales by type. | Reviewed the breakdown output after entering sales data. | Breakdown displayed correctly, with sales totals for each sandwich type. | ![screenshot](documentation/defensive/sales-breakdown.png) |
+| | Feature is expected to categorize sandwiches by type (e.g., vegetarian, meat, cheese). | Checked the categorization of sandwiches in the breakdown. | Sandwiches were correctly categorized by dietary type. | ![screenshot](documentation/defensive/categorization.png) |
+| Total Sales | Feature is expected to calculate the total sandwiches sold for the day. | Verified the total sales calculation with a known dataset. | Total sales calculation matched the expected result. | ![screenshot](documentation/defensive/total-sales.png) |
+| Trends | Feature is expected to display a trend of sandwich sales over time (e.g., week, month). | Input sales data for a week and reviewed the trend output. | Trends were displayed accurately for the selected timeframe. | ![screenshot](documentation/defensive/sales-trend.png) |
+| Suggestions | Feature is expected to suggest estimated sales for the next day based on past sales data. | Input past sales data and reviewed next-day suggestions. | Suggestions were reasonable and based on past sales trends. | ![screenshot](documentation/defensive/sales-suggestions.png) |
+| Usability | Feature is expected to be intuitive and easy to use. | Used the app without referring to documentation or prior knowledge. | App was intuitive and user-friendly for sales tracking. | ![screenshot](documentation/defensive/usability.png) |
 
 ## User Story Testing
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+⚠️ INSTRUCTIONS ⚠️
 
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
+Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
 
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
+Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+⚠️ --- END --- ⚠️
 
-| User Story | Screenshot |
-| --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
-| repeat for all remaining user stories | x |
+| Target | Expectation | Outcome | Screenshot |
+| --- | --- | --- | --- |
+| As a user | I would like to input the number of each sandwich type sold during the day | so that I can track daily sales accurately. | ![screenshot](documentation/features/feature01.png) |
+| As a user | I would like to view a breakdown of total sandwich sales by type | so that I can easily see which sandwiches are the most and least popular. | ![screenshot](documentation/features/feature02.png) |
+| As a user | I would like the application to calculate the total sandwiches sold for the day | so that I don’t have to do manual sums. | ![screenshot](documentation/features/feature03.png) |
+| As a user | I would like to see a trend of sandwich sales over time (e.g., week, month) | so that I can identify which sandwiches are consistently popular. | ![screenshot](documentation/features/feature04.png) |
+| As a user | I would like the application to suggest an estimated number of each sandwich type to make for the next day, based on past sales data | so that I can minimize waste and shortages. | ![screenshot](documentation/features/feature05.png) |
+| As a user | I would like the app to categorize sandwiches by type (e.g., vegetarian, meat, cheese) | so that I can track popularity within different dietary categories. | ![screenshot](documentation/features/feature06.png) |
+| As a user | I would like to input sales quickly with minimal typing | so that I can focus on running the shop instead of logging data. | ![screenshot](documentation/features/feature07.png) |
+| As a user | I would like the app to be intuitive and easy to use | so that I can start tracking sales without needing extensive training. | ![screenshot](documentation/features/feature08.png) |
 
 ## Bugs
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+⚠️ INSTRUCTIONS ⚠️
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
+Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
+If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
+Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/KC-85/SillyButSerious/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+When showcasing your bug tracking for assessment, you can use the following examples below.
 
-    ![screenshot](documentation/bugs/bug01.png)
+⚠️ --- END --- ⚠️
 
-    - To fix this, I _____________________.
+### Fixed Bugs
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+[![GitHub issue custom search](https://img.shields.io/github/issues-search/KC-85/SillyButSerious?query=is%3Aissue%20is%3Aclosed%20label%3Abug&label=Fixed%20Bugs&color=green)](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
 
-    ![screenshot](documentation/bugs/bug02.png)
+I've used [GitHub Issues](https://www.github.com/KC-85/SillyButSerious/issues) to track and manage bugs and issues during the development stages of my project.
 
-    - To fix this, I _____________________.
+All previously closed/fixed bugs can be tracked [here](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+![screenshot](documentation/bugs/gh-issues-closed.png)
 
-    ![screenshot](documentation/bugs/bug03.png)
+### Unfixed Bugs
 
-    - To fix this, I _____________________.
+⚠️ INSTRUCTIONS ⚠️
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
+You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
 
-    ![screenshot](documentation/bugs/bug04.png)
+If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
 
-    - To fix this, I _____________________.
+⚠️ --- END --- ⚠️
 
-- Python `E501 line too long` (93 > 79 characters)
+[![GitHub issue custom search](https://img.shields.io/github/issues-search/KC-85/SillyButSerious?query=is%3Aissue%2Bis%3Aopen%2Blabel%3Abug&label=Unfixed%20Bugs&color=red)](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-    ![screenshot](documentation/bugs/bug04.png)
+Any remaining open issues can be tracked [here](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
 
-    - To fix this, I _____________________.
+![screenshot](documentation/bugs/gh-issues-open.png)
 
-## Unfixed Bugs
+### Known Issues
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+| Issue | Screenshot |
+| --- | --- |
+| The project is designed to be responsive from `375px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
+| When using a helper `clear()` function, any text above the height of the terminal (24 lines) does not clear, and remains when scrolling up. | ![screenshot](documentation/issues/clear-scrolling.png) |
+| The `colorama` terminal colors are fainter on Heroku when compared to the IDE locally. | ![screenshot](documentation/issues/colorama.png) |
+| Emojis are cut-off when viewing the application from Firefox. | ![screenshot](documentation/issues/emojis.png) |
+| The Python terminal doesn't work well with Safari, and sometimes uses cannot type in the application. | ![screenshot](documentation/issues/safari.png) |
+| If a user types `CTRL`+`C` in the terminal on the live site, they can manually stop the application and receive and error. | ![screenshot](documentation/issues/ctrl-c.png) |
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
+> [!IMPORTANT]  
+> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
 
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/bugs/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/bugs/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/bugs/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-> [!NOTE]  
-> There are no remaining bugs that I am aware of.
