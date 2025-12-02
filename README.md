@@ -46,17 +46,22 @@ source: [SillyButSerious amiresponsive](https://ui.dev/amiresponsive?url=https:/
 #### 1. Strategy
 
 **Purpose**
-- Provide users with a simple and effective way to track daily sandwich sales and analyze trends over time.
-- Help users optimize sandwich production to reduce waste and meet demand efficiently.
+- Create an engaging quiz combining factual and humorous content.
+- Offer users a lightweight, enjoyable interactive experience.
+- Demonstrate Python logic, input handling, validation, loops, and modular design.
 
 **Primary User Needs**
-- Track daily sales by sandwich type with minimal effort.
-- Analyze sales data for trends and insights.
-- Receive suggestions for future sandwich production.
+- Clear instructions.
+- Easy-to-read multiple-choice questions.
+- A mix of serious and silly categories.
+- Accurate scoring.
+- Smooth and error-resistant input handling.
+- The ability to choose quiz length.
 
-**Business Goals**
-- Offer a reliable tool for tracking sales and optimizing inventory.
-- Help businesses reduce waste and improve customer satisfaction through better forecasting.
+**Business/Learning Goals**
+- Build a polished terminal app showcasing Python fundamentals.
+- Provide replayability through randomised questions and humour.
+- Demonstrate clean structure, modular programming, and defensive input validation.
 
 #### 2. Scope
 
