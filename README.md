@@ -92,11 +92,14 @@ source: [SillyButSerious amiresponsive](https://ui.dev/amiresponsive?url=https:/
   - **Replay:** Option to restart or exit 
 
 **User Flow**
-1. User opens the app → inputs daily sandwich sales data.
-2. User views a summary of the day’s sales → checks breakdown by type.
-3. User views Trends → analyzes sales trends over time.
-4. User receives suggested production numbers for the next day.
-5. User logs data quickly and returns to shop activities.
+- User starts quiz  
+- User selects quiz length  
+- Quiz presents unique randomised questions  
+- User answers with A/B/C/D  
+- Quiz validates input  
+- Score updates  
+- After final question → final score  
+- User may play again
 
 #### 4. Skeleton
 
