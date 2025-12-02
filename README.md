@@ -68,17 +68,28 @@ source: [SillyButSerious amiresponsive](https://ui.dev/amiresponsive?url=https:/
 **[Features](#features)** (see below)
 
 **Content Requirements**
-- Input form for daily sandwich sales.
-- Display of total daily sales and breakdown by sandwich type.
-- Trend analysis over specified time periods (e.g., week, month).
-- Category filters for sandwich types (e.g., vegetarian, meat, cheese).
-- Suggested production numbers for the next day based on sales data.
+- Questions stored in `questions.py`.
+- Categories: Silly, Serious.
+- Each question object contains:
+  - question text  
+  - four options (A–D)  
+  - correct answer  
+  - category
 
 #### 3. Structure
 
 **Information Architecture**
 - **Hierarchy**:
-  - Daily sales input form as the primary focus for ease of use.
+  - **Welcome Screen:** ASCII banner + instructions  
+  - **Quiz Setup:** Select number of questions  
+  - **Quiz Loop:**  
+  - Random question  
+  - Display category + question + options  
+  - Validate A/B/C/D input  
+  - Give feedback  
+  - Update score  
+  - **Completion:** Show final score  
+  - **Replay:** Option to restart or exit 
 
 **User Flow**
 1. User opens the app → inputs daily sandwich sales data.
