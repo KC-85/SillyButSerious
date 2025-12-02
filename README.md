@@ -7,11 +7,7 @@ Developer: Kristian Cross ([KC-85](https://www.github.com/KC-85))
 [![GitHub repo size](https://img.shields.io/github/repo-size/KC-85/SillyButSerious)](https://www.github.com/KC-85/SillyButSerious)
 [![badge](https://img.shields.io/badge/deployment-Heroku-purple)](https://silly-but-serious-ff8c9d0224be.herokuapp.com)
 
-⚠️ PROJECT INTRODUCTION AND RATIONALE⚠️
-
-In this section, include a few paragraphs providing an overview of your project. Essentially, this part is your "sales pitch". Describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience. Also, assessors lately have been asking that students explain "why" they opted to do a project about this particular topic/subject, so be sure to explain what made you choose this particular theme/concept/subject/idea. This is the project "rationale".
-
-⚠️ --- END --- ⚠️
+**SillyButSerious** is a terminal-based quiz game designed to mix genuine knowledge testing with light-hearted fun. Users answer a collection of multiple-choice questions that include both “serious” factual topics and intentionally silly, humorous categories. The goal is to create an accessible, entertaining, and highly replayable quiz experience.
 
 🛑 README NOTES 🛑
 
