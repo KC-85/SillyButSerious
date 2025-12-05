@@ -367,12 +367,8 @@ QUESTIONS = [
 
 I've used the following Python packages and external imports.
 
-- `gspread`: used with the Google Sheets API
-- `google.oauth2.service_account`: used for the Google Sheets API credentials
-- `time`: used for adding time delays
-- `os`: used for adding a `clear()` function
-- `colorama`: used for including color in the terminal
-- `random`: used to get a random choice from a list
+- `pyfiglet`: used to generate large ASCII-art text, allowing the quiz title to be displayed in a stylised, eye-catching format.
+- `termcolor`: used to add coloured text in the terminal, improving readability and making feedback such as correct or incorrect answers more visually clear.
 
 ## Testing
 
