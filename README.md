@@ -116,7 +116,7 @@ source: [SillyButSerious amiresponsive](https://ui.dev/amiresponsive?url=https:/
 To follow best practice, a flowchart was created to showcase the progression of the Python app.
 I've used [Lucidchart](https://www.lucidchart.com/pages/examples/flowchart-maker) to design my app flowchart.
 
-![screenshot](documentation/flowchart.png)
+![screenshot](documentation/lucidchart/flowchart.png)
 
 ## User Stories
 
@@ -128,14 +128,16 @@ In this section, list all of your possible user stories for the project. Samples
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a user | I would like to input the number of each sandwich type sold during the day | so that I can track daily sales accurately. |
-| As a user | I would like to view a breakdown of total sandwich sales by type | so that I can easily see which sandwiches are the most and least popular. |
-| As a user | I would like the application to calculate the total sandwiches sold for the day | so that I don’t have to do manual sums. |
-| As a user | I would like to see a trend of sandwich sales over time (e.g., week, month) | so that I can identify which sandwiches are consistently popular. |
-| As a user | I would like the application to suggest an estimated number of each sandwich type to make for the next day, based on past sales data | so that I can minimize waste and shortages. |
-| As a user | I would like the app to categorize sandwiches by type (e.g., vegetarian, meat, cheese) | so that I can track popularity within different dietary categories. |
-| As a user | I would like to input sales quickly with minimal typing | so that I can focus on running the shop instead of logging data. |
-| As a user | I would like the app to be intuitive and easy to use | so that I can start tracking sales without needing extensive training. |
+| As a user | I want clear instructions | so I understand how to play. |
+| As a user | I want to choose my quiz length | so I can play a short or long quiz. |
+| As a user | I want serious and silly categories | so the experience stays fun and unpredictable. |
+| As a user | I want to answer A/B/C/D quickly | so gameplay stays fast and simple. |
+| As a user | I want validation for my input | so I don’t break the quiz accidentally. |
+| As a user | I want feedback after answering | so I know whether I was correct. |
+| As a user | I want to track my score | so I can see how well I’m doing. |
+| As a user | I want no repeated questions | so the quiz feels fresh. |
+| As a user | I want a replay option | so I can try again. |
+| As a user | I want readable and visually appealing output | so the quiz feels polished. |
 
 ## Features
 
@@ -151,12 +153,18 @@ In this section, you should go over the different parts of your project, and des
 
 | Feature | Notes | Screenshot |
 | --- | --- | --- |
-| Data Input Validation | The program validates user input by ensuring the data is exactly six comma-separated numbers before continuing. | ![screenshot](documentation/features/data-validation.png) |
-| API Update | Sales, surplus, and stock data are updated in the relevant Google Sheets worksheet using gspread functionality. | ![screenshot](documentation/features/api-update.png) |
-| Surplus Calculation | Calculates surplus by comparing the latest stock and sales data to identify potential waste or shortages. | ![screenshot](documentation/features/surplus-calculation.png) |
-| Last 5 Sales Entries | Retrieves the last five sales entries from the "sales" worksheet for calculating stock averages. | ![screenshot](documentation/features/latest-entries.png) |
-| Stock Calculation | Computes stock based on the last 5 sales entries, adding 10% to the average to ensure adequate future stock. | ![screenshot](documentation/features/stock-calculation.png) |
-| Sales Data Automation | Automates the entire process of retrieving, validating, and updating sales, surplus, and stock data in Google Sheets. | ![screenshot](documentation/features/sales-data.png) |
+| ASCII Welcome Screen | Pyfiglet banner + intro text. | ![screenshot](documentation/features/welcome.png) |
+| Colour-Coded Messages | termcolor used for warnings, success, instructions. | ![screenshot](documentation/features/colours.png) |
+| Quiz Length Menu | User chooses 10–100 questions. | ![screenshot](documentation/features/quiz-length.png) |
+| Randomised Question Selection | No repeats thanks to a `set()`. | ![screenshot](documentation/features/randomiser.png) |
+| Mixed Categories | Each question displays “Serious” or “Silly.” | ![screenshot](documentation/features/category.png) |
+| A/B/C/D Input Validation | Rejects invalid answers. | ![screenshot](documentation/features/input-validation.png) |
+| Correct/Wrong Feedback | “Correct!” or correct-answer display. | ![screenshot](documentation/features/feedback.png) |
+| Score Tracking | Score displayed after each question. | ![screenshot](documentation/features/score.png) |
+| Final Score Summary | Clean summary after quiz ends. | ![screenshot](documentation/features/final-score.png) |
+| Replay Quiz Option | Play again loop. | ![screenshot](documentation/features/play-again.png) |
+| Terminal Clearing | Keeps interface clean. | ![screenshot](documentation/features/clear.png) |
+
 
 ### Future Features
 
@@ -168,20 +176,14 @@ A few examples are listed below to align with possible ways to improve on the sa
 
 ⚠️ --- END ---⚠️
 
-- **User Authentication and Role Management**: Implement a login system with roles (e.g., admin, employee) to restrict data access based on user roles.
-- **Data Visualization**: Add charts and graphs to visually represent sales trends, stock levels, and surplus/waste over time.
-- **Real-time Data Sync**: Integrate real-time syncing of sales and stock data across multiple devices to support live updates.
-- **Automated Restocking Alerts**: Notify users when stock levels fall below a certain threshold, prompting restock orders.
-- **Predictive Analytics**: Use historical sales data to predict future demand, helping to optimize stock levels and minimize waste.
-- **Multilingual Support**: Add support for multiple languages to make the app more accessible to a global audience.
-- **Mobile App Integration**: Develop a mobile version of the app for easier data input and stock management on the go.
-- **Reporting and Exporting**: Generate and export detailed reports in PDF or CSV format for deeper analysis of sales, surplus, and stock data.
-- **Inventory Management**: Include functionality to track supplier information, order inventory, and manage costs directly within the app.
-- **Customer Feedback Integration**: Allow customers to leave feedback on sold items, giving insight into sales performance and customer satisfaction.
-- **Customizable Dashboards**: Provide users with the ability to customize their dashboard, selecting which data points and metrics they want to monitor.
-- **Historical Data Comparison**: Implement functionality to compare current sales and stock data with data from the same period in previous years.
-- **Seasonal Adjustment Recommendations**: Analyze sales patterns and suggest stock adjustments for holidays or other seasonal trends.
-- **API Integration**: Provide an API for integrating with other third-party services, such as point-of-sale systems or accounting software.
+- Leaderboard saved to JSON or Google Sheet  
+- Filter categories (Serious / Silly / Mixed)  
+- Timed question mode  
+- Difficulty levels  
+- User-generated custom questions  
+- Themes (e.g., “Chaos Mode,” “Scholar Mode”)  
+- Multiplayer hot-seat  
+- Achievements / badges
 
 ## Tools & Technologies
 
@@ -231,17 +233,54 @@ The "Love Sandwiches" sample flowchart in Markdown syntax using Mermaid can be s
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[Get Sales Data]
-    B --> C{Is Data Valid?}
-    C -->|Yes| D[Convert Data to Integers]
-    C -->|No| B
-    D --> E[Update Sales Worksheet]
-    E --> F[Calculate Surplus Data]
-    F --> G[Update Surplus Worksheet]
-    G --> H[Get Last 5 Sales Entries]
-    H --> I[Calculate Stock Data]
-    I --> J[Update Stock Worksheet]
-    J --> K[End]
+    flowchart TD
+        flowchart TD
+    A([Start])
+    B[clear]
+    C[display_welcome_message]
+    D[get_quiz_length]
+    E[Set score = 0 and create empty asked_questions set]
+    F{More questions remaining?}
+    G[Select random unanswered question]
+    H[Show category, question and options]
+    I[Ask user for answer A/B/C/D]
+    J{Is answer valid?}
+    K{Is answer correct?}
+    L[Show Correct! and increase score]
+    M[Show Wrong and display correct answer]
+    N[Show current score]
+    O[Show final score]
+    P{Play again?}
+    Q[Show goodbye message]
+    R([End])
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    F -->|Yes| G
+    F -->|No| O
+
+    G --> H
+    H --> I
+    I --> J
+
+    J -->|No| H
+    J -->|Yes| K
+
+    K -->|Yes| L
+    K -->|No| M
+
+    L --> N
+    M --> N
+    N --> F
+
+    O --> P
+    P -->|Yes| B
+    P -->|No| Q
+    Q --> R
 ```
 
 Source: [Mermaid Flowchart for Love Sandwiches](https://mermaid.live/edit#pako:eNpdkctugzAQRX_F8jpZdsOiVXkkIa26SR9qgcUIJoAwNjLjVlXIv5cMJErjlWfu8b0z8kHmpkDpyb0yP3kFlsRrmGoxnsdkR2OdieXyXvjJGknsQGEvQiDIJsZnMTjEU1e8g6qLh-MkBidx-MR-EGESGP2NoztjZESsCUu0fXbNvphB-FMjZOcoeesKIJyTP4xt-gqR5lcRQ6skAJU7xZyznXL_ZlwxtL44zcSt15qxDe_5DD2Juzk00mRrPA-6YSy-jiSTN9eBMSPbSyDrt3Fbhp6SSBeZXMgWbQt1MX7E4aSnkipsMZXeeC3ANqlM9XHkwJHZ_epcemQdLqTjjLCG0kJ7bnagv4y5lNa4spLeHlSPxz-Rd5za)
