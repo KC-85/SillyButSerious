@@ -297,40 +297,73 @@ Use this space to explain your Python classes (if applicable) and functions. Exa
 
 The program uses classes as a blueprint for the project's object-oriented programming (OOP). This allows for the object to be reusable and callable where necessary.
 
+This project is built using a functional approach. No custom Python classes are required for the current scope of the quiz.
+
+The main functions are:
+
+- `clear()`
+  - Clears the terminal screen using `os.system("cls" if os.name == "nt" else "clear")`.
+  - Keeps the interface tidy and easy to read between stages of the quiz.
+
+- `display_welcome_message()`
+  - Renders the ASCII “Silly but Serious” title using **pyfiglet**.
+  - Prints the quiz instructions (how to play, how to answer).
+  - Waits for the user to press Enter before starting.
+  - Calls `clear()` once the user is ready to begin.
+
+- `get_quiz_length()`
+  - Displays a menu for the user to choose how many questions to answer.
+  - Uses the predefined `QUIZ_LENGTHS = [10, 20, 50, 100]`.
+  - Validates input so only numeric choices 1–4 are accepted.
+  - Returns the selected quiz length as an integer.
+
+- `play_again()`
+  - Asks the user if they want to play again (`yes/no`).
+  - Accepts `yes`, `y`, `no`, `n` (case-insensitive).
+  - Keeps prompting until a valid response is entered.
+  - Returns `True` for yes and `False` for no.
+
+- `run_quiz()`
+  - Core game loop for the quiz.
+  - Calls `display_welcome_message()` and `get_quiz_length()`.
+  - Sets `score = 0` and creates an empty `asked_questions` set.
+  - While there are still questions to ask:
+    - Selects a random question index from `QUESTIONS` that has not been used before.
+    - Displays the question’s category, question text, and multiple-choice options (A–D).
+    - Validates that the user’s answer is one of `A`, `B`, `C`, or `D` (case-insensitive).
+    - Checks if the answer matches `correct_answer` from the question data.
+    - Shows “Correct!” in green and increments the score, or shows the correct answer in red if wrong.
+    - Displays the current score as `score / questions_answered`.
+  - After all questions are answered:
+    - Pauses for Enter, then clears the screen.
+    - Displays the final score.
+    - Calls `play_again()` to decide whether to restart the quiz or exit.
+
+- `wait_for_enter()`
+  - Displays a final prompt asking the user to press Enter to exit the program.
+  - Used after `run_quiz()` completes to close gracefully.
+
+The question data is stored externally in `questions.py` as a list of dictionaries.  
+Each question follows this structure:
+
 ```python
-class Person:
-    """ Insert docstring comments here """
-    def __init__(self, name, age, health, inventory):
-        self.name = name
-        self.age = age
-        self.health = health
-        self.inventory = inventory
+QUESTIONS = [
+    {
+        "question": "Example question text?",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "correct_answer": "A",
+        "category": "Serious"  # or "Silly"
+    },
+    # More questions...
+]
 ```
 
-The primary functions used on this application are:
-
-- `get_sales_data()`
-    - Get sales figures input from the user.
-- `validate_data()`
-    - Converts all string values into integers.
-- `update_worksheet()`
-    - Update the relevant worksheet with the data provided.
-- `calculate_surplus_data()`
-    - Compare sales with stock and calculate the surplus for each item type.
-- `get_last_5_entries_sales()`
-    - Collects columns of data from sales worksheet.
-- `calculate_stock_data()`
-    -  Calculate the average stock for each item type, adding 10%.
-- `main()`
-    - Run all program functions.
-
 #### Imports
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to explain your Python imports and packages, with some common examples found below.
-
-⚠️ --- END --- ⚠️
 
 I've used the following Python packages and external imports.
 
@@ -340,38 +373,6 @@ I've used the following Python packages and external imports.
 - `os`: used for adding a `clear()` function
 - `colorama`: used for including color in the terminal
 - `random`: used to get a random choice from a list
-
-## Agile Development Process
-
-### GitHub Projects
-
-⚠️ TIP ⚠️
-
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
-
-[GitHub Projects](https://www.github.com/KC-85/SillyButSerious/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
-
-![screenshot](documentation/gh-projects.png)
-
-### GitHub Issues
-
-[GitHub Issues](https://www.github.com/KC-85/SillyButSerious/issues) served as an another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
-
-| Link | Screenshot |
-| --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues-search/KC-85/SillyButSerious?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-search/KC-85/SillyButSerious?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/KC-85/SillyButSerious/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation/gh-issues-closed.png) |
-
-### MoSCoW Prioritization
-
-I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab.
-
-- **Must Have**: guaranteed to be delivered - required to Pass the project (*max ~60% of stories*)
-- **Should Have**: adds significant value, but not vital (*~20% of stories*)
-- **Could Have**: has small impact if left out (*the rest ~20% of stories*)
-- **Won't Have**: not a priority for this iteration - future features
 
 ## Testing
 
