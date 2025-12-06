@@ -99,12 +99,6 @@ I've used [Mermaid](https://www.lucidchart.com/pages/examples/flowchart-maker) t
 
 ## User Stories
 
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, list all of your possible user stories for the project. Samples have been provided below using the example walkthrough project for your inspiration. Make sure to adjust to match your own project features!
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome |
 | --- | --- | --- |
 | As a user | I want clear instructions | so I understand how to play. |
@@ -119,14 +113,6 @@ In this section, list all of your possible user stories for the project. Samples
 | As a user | I want readable and visually appealing output | so the quiz feels polished. |
 
 ## Features
-
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, you should go over the different parts of your project, and describe each feature. You should explain what value each of the features provides for the user, focusing on your target audience, what they want to achieve, and how your project can help them achieve these things.
-
-**IMPORTANT**: Remember to always include a screenshot of each individual feature!
-
-⚠️ --- END --- ⚠️
 
 ### Existing Features
 
