@@ -20,7 +20,6 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | --- | --- | --- | --- |
 | As a user, I want clear instructions | so I immediately understand how to play. | The welcome screen explains how to choose quiz length, how to answer questions, and how scoring works. | ![screenshot](documentation/features/welcome.png) |
 | As a user, I want to choose the quiz length | so I can play a short or long quiz depending on my time. | Quiz length menu offers 10, 20, 50 or 100 questions, with validated input. | ![screenshot](documentation/features/quiz-length.png) |
-| As a user, I want both serious and silly questions | so that the quiz feels fun and unpredictable. | Questions are grouped into categories, displayed at the top of each question (e.g., “Serious” or “Silly”). | ![screenshot](documentation/features/category.png) |
 | As a user, I want multiple-choice answers | so I can answer quickly without typing full words. | Each question displays options A–D clearly underneath the question. | ![screenshot](documentation/features/options.png) |
 | As a user, I want answer validation | so I don’t accidentally break the game with incorrect input. | Invalid input such as numbers, words or blank responses are rejected with a message and re-prompt. | ![screenshot](documentation/features/input-validation.png) |
 | As a user, I want feedback after each question | so I know whether I got it right or wrong. | The quiz prints “Correct!” in green or a red message explaining the correct answer. | ![screenshot](documentation/features/feedback.png) |

@@ -120,7 +120,6 @@ I've used [Mermaid](https://www.lucidchart.com/pages/examples/flowchart-maker) t
 | --- | --- | --- |
 | ASCII Welcome Screen | Pyfiglet banner + intro text. | ![screenshot](documentation/features/welcome.png) |
 | Quiz Length Menu | User chooses 10–100 questions. | ![screenshot](documentation/features/quiz-length.png) |
-| Mixed Categories | Each question displays “Serious” or “Silly.” | ![screenshot](documentation/features/serious.png) ![screenshot](documentation/features/silly.png) |
 | A/B/C/D Input Validation | Rejects invalid answers. | ![screenshot](documentation/features/input-validation.png) |
 | Correct/Wrong Feedback | “Correct!” or correct-answer display. | ![screenshot](documentation/features/feedback.png) |
 | Score Tracking | Score displayed after each question. | ![screenshot](documentation/features/score.png) |
