@@ -155,7 +155,6 @@ In this section, you should go over the different parts of your project, and des
 | --- | --- | --- |
 | ASCII Welcome Screen | Pyfiglet banner + intro text. | ![screenshot](documentation/features/welcome.png) |
 | Quiz Length Menu | User chooses 10–100 questions. | ![screenshot](documentation/features/quiz-length.png) |
-| Randomised Question Selection | No repeats thanks to a `set()`. | ![screenshot](documentation/features/randomiser.png) |
 | Mixed Categories | Each question displays “Serious” or “Silly.” | ![screenshot](documentation/features/serious.png) ![screenshot](documentation/features/silly.png) |
 | A/B/C/D Input Validation | Rejects invalid answers. | ![screenshot](documentation/features/input-validation.png) |
 | Correct/Wrong Feedback | “Correct!” or correct-answer display. | ![screenshot](documentation/features/feedback.png) |
@@ -218,22 +217,8 @@ To follow best practice, a flowchart was created for the app's logic, and mapped
 
 ![screenshot](documentation/flowchart.png)
 
-⚠️ RECOMMENDED ⚠️
-
-Looking for an interactive version of your flowchart? Consider using a [`Mermaid flowchart`](https://mermaid.live). To simplify the process, you can ask ChatGPT (or similar) the following prompt:
-
-> ChatGPT Prompt:  
-> "Generate a Markdown syntax Mermaid flowchart using a screenshot of my existing flowchart"  
-> [paste-your-flowchart-screenshot-into-ChatGPT]
-
-The "Love Sandwiches" sample flowchart in Markdown syntax using Mermaid can be seen below as an example.
-
-**NOTE**: A Markdown Preview tool doesn't show the interactive flowchart, you must first commit/push the code to your GitHub repository in order to see it live in action.
-
 ```mermaid
-flowchart TD
-    flowchart TD
-        flowchart TD
+   flowchart TD
     A([Start])
     B[clear]
     C[display_welcome_message]
@@ -281,10 +266,6 @@ flowchart TD
     P -->|No| Q
     Q --> R
 ```
-
-Source: [Mermaid Flowchart for Love Sandwiches](https://mermaid.live/edit#pako:eNpdkctugzAQRX_F8jpZdsOiVXkkIa26SR9qgcUIJoAwNjLjVlXIv5cMJErjlWfu8b0z8kHmpkDpyb0yP3kFlsRrmGoxnsdkR2OdieXyXvjJGknsQGEvQiDIJsZnMTjEU1e8g6qLh-MkBidx-MR-EGESGP2NoztjZESsCUu0fXbNvphB-FMjZOcoeesKIJyTP4xt-gqR5lcRQ6skAJU7xZyznXL_ZlwxtL44zcSt15qxDe_5DD2Juzk00mRrPA-6YSy-jiSTN9eBMSPbSyDrt3Fbhp6SSBeZXMgWbQt1MX7E4aSnkipsMZXeeC3ANqlM9XHkwJHZ_epcemQdLqTjjLCG0kJ7bnagv4y5lNa4spLeHlSPxz-Rd5za)
-
-⚠️ --- END --- ⚠️
 
 #### Classes & Functions
 
