@@ -16,24 +16,18 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome | Screenshot |
 | --- | --- | --- | --- |
-| As a user | I would like to input the number of each sandwich type sold during the day | so that I can track daily sales accurately. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view a breakdown of total sandwich sales by type | so that I can easily see which sandwiches are the most and least popular. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like the application to calculate the total sandwiches sold for the day | so that I don’t have to do manual sums. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to see a trend of sandwich sales over time (e.g., week, month) | so that I can identify which sandwiches are consistently popular. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like the application to suggest an estimated number of each sandwich type to make for the next day, based on past sales data | so that I can minimize waste and shortages. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like the app to categorize sandwiches by type (e.g., vegetarian, meat, cheese) | so that I can track popularity within different dietary categories. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like to input sales quickly with minimal typing | so that I can focus on running the shop instead of logging data. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like the app to be intuitive and easy to use | so that I can start tracking sales without needing extensive training. | ![screenshot](documentation/features/feature08.png) |
+| As a user, I want clear instructions | so I immediately understand how to play. | The welcome screen explains how to choose quiz length, how to answer questions, and how scoring works. | ![screenshot](documentation/features/welcome.png) |
+| As a user, I want to choose the quiz length | so I can play a short or long quiz depending on my time. | Quiz length menu offers 10, 20, 50 or 100 questions, with validated input. | ![screenshot](documentation/features/quiz-length.png) |
+| As a user, I want both serious and silly questions | so that the quiz feels fun and unpredictable. | Questions are grouped into categories, displayed at the top of each question (e.g., “Serious” or “Silly”). | ![screenshot](documentation/features/category.png) |
+| As a user, I want multiple-choice answers | so I can answer quickly without typing full words. | Each question displays options A–D clearly underneath the question. | ![screenshot](documentation/features/options.png) |
+| As a user, I want answer validation | so I don’t accidentally break the game with incorrect input. | Invalid input such as numbers, words or blank responses are rejected with a message and re-prompt. | ![screenshot](documentation/features/input-validation.png) |
+| As a user, I want feedback after each question | so I know whether I got it right or wrong. | The quiz prints “Correct!” in green or a red message explaining the correct answer. | ![screenshot](documentation/features/feedback.png) |
+| As a user, I want to track my score | so I can see how well I’m doing during the quiz. | After each question, the current score is shown as `score/questions_answered`. | ![screenshot](documentation/features/score.png) ||
+| As a user, I want the option to replay | so I can try to improve my score. | After the final score, the user is asked if they want to play again; if yes, the quiz restarts. | ![screenshot](documentation/features/play-again.png) |
+| As a user, I want the interface to be readable and engaging | so it doesn’t feel like a plain text dump. | ASCII art and coloured text (via `pyfiglet` and `termcolor`) are used for key sections. | ![screenshot](documentation/features/ascii.png) |
+
 
 ## Bugs
 
@@ -46,10 +40,7 @@ Most of your project's **Features** should already align with the **User Stories
 | Issue | Screenshot |
 | --- | --- |
 | The project is designed to be responsive from `375px` and upwards, in line with the material taught on the course LMS. Minor layout inconsistencies may occur on extra-wide (e.g. 4k/8k monitors), or smart-display devices (e.g. Nest Hub, Smart Watches, Gameboy Color, etc.), as these resolutions are outside the project’s scope, as taught by Code Institute. | ![screenshot](documentation/issues/poor-responsiveness.png) |
-| When using a helper `clear()` function, any text above the height of the terminal (24 lines) does not clear, and remains when scrolling up. | ![screenshot](documentation/issues/clear-scrolling.png) |
-| The `colorama` terminal colors are fainter on Heroku when compared to the IDE locally. | ![screenshot](documentation/issues/colorama.png) |
-| Emojis are cut-off when viewing the application from Firefox. | ![screenshot](documentation/issues/emojis.png) |
-| The Python terminal doesn't work well with Safari, and sometimes uses cannot type in the application. | ![screenshot](documentation/issues/safari.png) |
+| The `termcolor` terminal colors are fainter on Heroku when compared to the IDE locally. | ![screenshot](documentation/issues/termcolor.png) |
 | If a user types `CTRL`+`C` in the terminal on the live site, they can manually stop the application and receive and error. | ![screenshot](documentation/issues/ctrl-c.png) |
 
 > [!IMPORTANT]  
