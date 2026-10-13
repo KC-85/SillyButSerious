@@ -1,0 +1,14 @@
+.git
+.gitignore
+.gitpod.dockerfile
+.gitpod.yml
+.vscode
+__pycache__
+*.py[cod]
+.env
+env.py
+venv
+.venv
+node_modules
+assets
+documentation

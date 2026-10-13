@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: silly-but-serious
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production

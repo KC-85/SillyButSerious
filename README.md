@@ -1,11 +1,11 @@
-# [SillyButSerious](https://silly-but-serious-ff8c9d0224be.herokuapp.com)
+# SillyButSerious
 
 Developer: Kristian Cross ([KC-85](https://www.github.com/KC-85))
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/KC-85/SillyButSerious)](https://www.github.com/KC-85/SillyButSerious/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/KC-85/SillyButSerious)](https://www.github.com/KC-85/SillyButSerious/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/KC-85/SillyButSerious)](https://www.github.com/KC-85/SillyButSerious)
-[![badge](https://img.shields.io/badge/deployment-Heroku-purple)](https://silly-but-serious-ff8c9d0224be.herokuapp.com)
+[![badge](https://img.shields.io/badge/deployment-Render-46E3B7)](https://render.com)
 
 **SillyButSerious** is a terminal-based quiz game designed to mix genuine knowledge testing with light-hearted fun. Users answer a collection of multiple-choice questions that include both “serious” factual topics and intentionally silly, humorous categories. The goal is to create an accessible, entertaining, and highly replayable quiz experience.
 
@@ -148,7 +148,7 @@ I've used [Mermaid](https://www.lucidchart.com/pages/examples/flowchart-maker) t
 | [![badge](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) | Secure online code storage. |
 | [![badge](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com) | Local IDE for development. |
 | [![badge](https://img.shields.io/badge/Python-grey?logo=python&logoColor=3776AB)](https://www.python.org) | Back-end programming language. |
-| [![badge](https://img.shields.io/badge/Heroku-grey?logo=heroku&logoColor=430098)](https://www.heroku.com) | Hosting the deployed back-end site. |
+| [![badge](https://img.shields.io/badge/Render-grey?logo=render&logoColor=46E3B7)](https://render.com) | Hosting the deployed application. |
 | [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com) | Help debug, troubleshoot, and explain things. |
 | [![badge](https://img.shields.io/badge/Lucidchart-grey?logo=lucid&logoColor=F97B2C)](https://www.lucidchart.com) | Flow diagrams for mapping the app's logic. |
 | [![badge](https://img.shields.io/badge/StackOverflow-grey?logo=stackoverflow&logoColor=F58025)](https://stackoverflow.com) | Troubleshooting and Debugging |
@@ -297,59 +297,24 @@ I've used the following Python packages and external imports.
 
 ## Deployment
 
-Code Institute has provided a [template](https://github.com/Code-Institute-Org/python-essentials-template) to display the terminal view of this backend application in a modern web browser. This is to improve the accessibility of the project to others.
+Code Institute provided a [template](https://github.com/Code-Institute-Org/python-essentials-template) to display the terminal application in a modern web browser. The template uses Node.js to serve an xterm.js interface and launches the Python quiz in a pseudo-terminal.
 
-The live deployed application can be found deployed on [Heroku](https://silly-but-serious-ff8c9d0224be.herokuapp.com).
+### Render Deployment
 
-### Heroku Deployment
+The application uses both Node.js and Python, so it is configured for [Render](https://render.com) as a Docker-based web service. The repository includes a `Dockerfile` and a `render.yaml` Blueprint that install both runtimes and their dependencies.
 
-This project uses [Heroku](https://www.heroku.com), a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+Deployment steps are:
 
-Deployment steps are as follows, after account setup:
+1. Push the repository to GitHub.
+2. Sign in to Render and select **New > Blueprint**.
+3. Connect this GitHub repository.
+4. Review the service details read from `render.yaml` and select **Apply**.
+5. Wait for the Docker image to build and the health check to pass.
+6. Open the generated `onrender.com` URL.
 
-- Select **New** in the top-right corner of your Heroku Dashboard, and select **Create new app** from the dropdown menu.
-- Your app name must be unique, and then choose a region closest to you (EU or USA), then finally, click **Create App**.
-- From the new app **Settings**, click **Reveal Config Vars**, and set the value of **KEY** to `PORT`, and the **VALUE** to `8000` then select **ADD**.
-- If using any confidential credentials, such as **CREDS.JSON**, then these should be pasted in the Config Variables as well.
-- Further down, to support dependencies, select **Add Buildpack**.
-- The order of the buildpacks is important; select `Python` first, then `Node.js` second. (if they are not in this order, you can drag them to rearrange them)
+Render supplies the `PORT` environment variable automatically. The application listens on that port and binds to `0.0.0.0`. No database, persistent disk, or secret environment variables are required.
 
-Heroku needs some additional files in order to deploy properly.
-
-- [requirements.txt](requirements.txt)
-- [Procfile](Procfile)
-- [.python-version](.python-version)
-
-You can install this project's **[requirements.txt](requirements.txt)** (*where applicable*) using:
-
-- `pip3 install -r requirements.txt`
-
-If you have your own packages that have been installed, then the requirements file needs updated using:
-
-- `pip3 freeze --local > requirements.txt`
-
-The **[Procfile](Procfile)** can be created with the following command:
-
-- `echo web: node index.js > Procfile`
-
-The **[.python-version](.python-version)** file tells Heroku the specific version of Python to use when running your application.
-
-- `3.12` (or similar)
-
-For Heroku deployment, follow these steps to connect your own GitHub repository to the newly created app:
-
-Either (*recommended*):
-
-- Select **Automatic Deployment** from the Heroku app.
-
-Or:
-
-- In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
-- Set the remote for Heroku: `heroku git:remote -a app_name` (*replace `app_name` with your app name*)
-- After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type:
-	- `git push heroku main`
-
-The Python terminal window should now be connected and deployed to Heroku!
+The free service plan may spin down after inactivity, so the first request after an idle period can take longer to load.
 
 
 
